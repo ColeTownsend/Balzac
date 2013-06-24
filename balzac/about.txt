@@ -1,0 +1,5 @@
+Theme name:    Balzac
+Description:   
+Author name:  	 Cole Townsend
+Author site:   http://coletownsend.com
+License:       MIT
