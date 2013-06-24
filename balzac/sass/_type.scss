@@ -1,0 +1,34 @@
+/* ==========================================================================
+   TYPE
+   - Copy
+   - Headings
+   ========================================================================== */
+
+// Typography
+
+$sans: "Source Sans Pro", "Open Sans";
+$sans-alt: "Brandon Text", "Freight Sans Pro";
+$grot: "brandon-grotesque", "grot" ;
+$serif: "Calendas Plus";
+
+/* Copy
+   ========================================================================== */
+
+p {           font-size: $fs4; }
+.intro {      font-size: $fs3; }
+
+
+
+/* Headings
+   ========================================================================== */
+
+h1,.h1 {      font-size: $fs1; }
+h2,.h2 {      font-size: $fs2; } 
+h3,.h3 {      font-size: $fs3; } 
+h4,.h4 {      font-size: $fs4; } 
+h5,.h5 {      font-size: $fs5; } 
+h6,.h6 {      font-size: $fs6; } 
+
+.meta {       font-size: $fs6; }
+
+blockquote {  font-size: $fs2; }

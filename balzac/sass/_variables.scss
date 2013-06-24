@@ -1,0 +1,65 @@
+/* ==========================================================================
+   VARIABLES
+   ========================================================================== */
+
+/* Colors
+   ========================================================================== */
+
+/* Don't use black */
+
+$near-black:  #504a46;
+$white: #f9f9f9;
+
+/* Gray scale */
+
+$gray-dark:   #222;
+$gray-medium: #999;
+$gray-light:  #eee;
+
+/* Hilight */
+$hilite: #fffbd7;
+
+   
+/* Type Scale
+   ========================================================================== */
+
+/**
+ * 12 & 16 as roots then powers of two.
+ */
+
+$fs1:64px;
+$fs2:48px;
+$fs3:32px;
+$fs4:24px;
+$fs5:16px;
+$fs6:12px;
+
+
+/* Mobile */
+$breakpoint-1-max-width:480px;
+
+/* Tablet */
+$breakpoint-2-min-width:480px;
+$breakpoint-2-max-width:1024px;
+
+
+// Colors
+$red: #EC6F66;
+$green: #A5DA95;
+$black: #504a46;
+$lighter: #d2d2d2;
+$bg: #f3f0f0;
+$navy: #3C424E;
+$pink: #EC6F66;
+$hilite: #fffbd7;
+
+$borderR: 4px;
+
+// Animations
+$ease: all .2s ease;
+
+// Breaks
+
+$break-small: 320px;
+$break-mid: 760px;
+$break-large: 1600px
