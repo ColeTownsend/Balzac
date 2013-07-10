@@ -78,7 +78,7 @@ hr {
 }
 
 .bb {
-    border-bottom: 4px solid $accent;
+    border-bottom: 2px solid $link;
 }
 
 /************ Layout *************/
@@ -102,10 +102,6 @@ hr {
     float: none;
 }
 
-.archive-wrap {
-    @include push(2);
-    @include column(6);
-}
 
 
 /* Header */
@@ -229,25 +225,59 @@ img.loading {
 }
 
 // Archive Page
+
 .archive {
-    margin: 50px 0;
+    @include column(10);
+    display: block;
+    float: none;
+    margin-top: 50px;
+}
+
+.archive-wrap {
+    @include column(8);
+    @include push(4);
+    display: block;
+    float: none;
+    
     
     // Post Listing
     .post-list {
-        @include row(6);
         list-style-type: none;
         list-style: none;
         
-        li {
-            @include column(3,6); 
+        lh h1 {
+            font-size: $fs2;
             margin-bottom: $lh;
-            font-style: $fs3;
         }
         
-        time {
+        li {
+            @include column(8);
+            display: block;
+            float: none;
+            margin: 0;
+            font-size: $fs3;
+            margin-bottom: $lh;
+            
+            h1 {
+                font-size: $fs3;
+                font-style: italic;
+            }
+        }
+        
+        .summary {
+            font-size: 18px;
+            line-height: 1.4em;
+        }
+        
+        .date time {
             position: relative;
-            top: -10px;
-            font-style: $fs5;
+            top: -6px;
+            font-size: 14px;
+            font-weight: bold;
+            font-family: $sans;
+            font-style: normal;
+            color: $grey-light;
+            text-transform: uppercase;
             vertical-align: middle;
         }
     }
@@ -326,7 +356,7 @@ img.loading {
 
 /* Footer Stuff */
 .push {
-    height: $footerHeight/2 !important;
+    height: $footerHeight !important;
 }
 
 footer {
