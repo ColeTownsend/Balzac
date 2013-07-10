@@ -212,7 +212,7 @@ body {
 /************ Basic *************/
 /* line 3, ../sass/_styles.scss */
 body {
-  font-family: "Crimson Text";
+  font-family: "Calendas Plus", "Crimson Text";
   color: #3b3b3b;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
@@ -224,7 +224,7 @@ body {
 
 /* line 14, ../sass/_styles.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Crimson Text"; }
+  font-family: "Calendas Plus", "Crimson Text"; }
 
 /* line 18, ../sass/_styles.scss */
 p {
@@ -495,7 +495,7 @@ header.site-header nav {
     /* line 267, ../sass/_styles.scss */
     .archive-wrap .post-list .summary {
       font-size: 18px;
-      line-height: 1.4em; }
+      line-height: 1.45em; }
     /* line 272, ../sass/_styles.scss */
     .archive-wrap .post-list .date time {
       position: relative;
