@@ -7,17 +7,28 @@
 
 /* Don't use black */
 
-$near-black:  #504a46;
+$black:  #3b3b3b;
 $white: #f9f9f9;
 
 /* Gray scale */
 
-$gray-dark:   #222;
-$gray-medium: #999;
-$gray-light:  #eee;
+$grey-dark:   #222;
+$grey-medium: #999;
+$grey-light:  #d9d9d9;
 
 /* Hilight */
 $hilite: #fffbd7;
+
+/* Accent Colors */
+$link: #8AB9D1;
+$accent: #24536B;
+
+
+/* Typography
+   ========================================================================== */
+
+$sans: "Source Sans Pro", "Open Sans";
+$serif: "Crimson Text";
 
    
 /* Type Scale
@@ -32,16 +43,26 @@ $fs4:24px;
 $fs5:16px;
 $fs6:12px;
 
+// Line Height
 
+$lh: 36px;
+
+// Sizing 
+$footerHeight: 320px;
+
+
+/* Break Points
+   ========================================================================== */
+   
 /* Mobile */
 $breakpoint-1-max-width:480px;
 
 /* Tablet */
-$breakpoint-2-min-width:480px;
+$breakpoint-2-min-width:800px;
 $breakpoint-2-max-width:1024px;
 
+/* Style Tidbits
+   ========================================================================== */
 
 $borderR: 4px;
 
-// Animations
-$ease: all .2s ease;

@@ -1,50 +1,23 @@
 <?php theme_include('header'); ?>
-
-<section class="content">
-
-	<?php if(has_posts()): ?>
-		<ul class="items">
-			<?php posts(); ?>
-			<li>
-				<article class="wrap">
-					<h1>
-						<a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a>
-					</h1>
-
-					<div class="content">
-						<?php echo article_markdown(); ?>
-					</div>
-
-					<footer>
-						Posted <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time> by <?php echo article_author('real_name'); ?>.
-					</footer>
-				</article>
-			</li>
-			<?php $i = 0; while(posts()): ?>
-			<?php $bg = sprintf('background: hsl(215, 28%%, %d%%);', round(((++$i / posts_per_page()) * 20) + 20)); ?>
-			<li style="<?php echo $bg; ?>">
-				<article class="wrap">
-					<h2>
-						<a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a>
-					</h2>
-				</article>
-			</li>
-			<?php endwhile; ?>
-		</ul>
-
-		<?php if(has_pagination()): ?>
-		<nav class="pagination">
-			<div class="wrap">
-				<?php echo posts_prev(); ?>
-				<?php echo posts_next(); ?>
-			</div>
-		</nav>
-		<?php endif; ?>
-
-	<?php else: ?>
-		<p>Looks like you have some writing to do!</p>
-	<?php endif; ?>
-
-</section>
-
+    <div id='bump'>
+        <section class="article archive">
+          <article class="archive-wrap">
+            <?php if(has_posts()): ?>
+              <!-- We have posts, it's safe to loop. -->
+              <h1></h1>
+              <ol class="post-list">
+                 <lh style="text-align: center;"><h1><span class="bb">Recent Posts</span></h1></lh>
+                <?php while(posts()): ?>
+                  <li>
+                    <div class="deets left-slide"><h1><a href="<?php echo article_url(); ?>"><?php echo article_title(); ?></a></h1>
+                    <em><p class="date"><time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time></p></em></div>
+                  </li>
+                <?php endwhile; ?>
+              </ol>
+            <?php else: ?>
+              <p class="unprepped">Looks like there is nothing here. Huh!</p>
+            <?php endif; ?>
+          </article>
+        </section>
+    </div>
 <?php theme_include('footer'); ?>

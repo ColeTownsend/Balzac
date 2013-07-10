@@ -1,21 +1,20 @@
 /* ==========================================================================
    TYPE
-   - Copy
+   - Meat
    - Headings
    ========================================================================== */
 
-// Typography
-
-$sans: "Source Sans Pro", "Open Sans";
-$sans-alt: "Brandon Text", "Freight Sans Pro";
-$grot: "brandon-grotesque", "grot" ;
-$serif: "Calendas Plus";
-
-/* Copy
+/* Meat
    ========================================================================== */
 
-p {           font-size: $fs4; }
-.intro {      font-size: $fs3; }
+p {           
+    font-size: $fs4; 
+}
+
+.intro {      
+    font-size: $fs3; 
+    line-height: 1.4em;
+}
 
 
 
