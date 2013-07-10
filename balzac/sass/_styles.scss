@@ -363,7 +363,7 @@ footer {
     width: 100%;
     background: $black;
     height: $footerHeight;
-    font-size: $fs4;
+    font-size: $fs5;
     color: $white;
     position: relative;
         
@@ -388,10 +388,9 @@ footer {
     
     .list-title {
         margin-bottom: $lh/2;
-        padding-bottom: 4px;
         border-bottom: 2px solid $link;
         font-style: italic;
-        font-size: $fs3;
+        font-size: $fs4;
     }
     .prev-posts {
         @include column(6,12);
@@ -402,19 +401,20 @@ footer {
         li {
             @include row(6);
             margin-top: $lh/2;
+            font-size: $fs3;
             .recent-title a {
                 @include column(2,6);
-                color: $white;
+                font-size: 20px;
+                font-style: italic;
                 &:hover {
-                    color: $link;
+                    color: $white;
                 }
             }
             span.date {
                 float: none;
-                color: $grey-light;
+                color: transparentize($grey-light, .4);
                 @include column(2,6);
                 position: relative;
-                top: 6px;
                 font-size: $fs5;
                 font-family: $sans;
                 text-transform: uppercase;
@@ -428,6 +428,13 @@ footer {
         @include column(2,12);
         @include push(4);
         padding-top: $lh*2;
+        font-size: 18px;
+        font-style: italic;
+        a {
+            &:hover {
+                color: $white;
+            }
+        }
         ul {
             li {
                 margin-bottom: $lh/2;

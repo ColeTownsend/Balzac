@@ -586,7 +586,7 @@ footer {
   width: 100%;
   background: #3b3b3b;
   height: 320px;
-  font-size: 24px;
+  font-size: 16px;
   color: #f9f9f9;
   position: relative; }
   /* line 371, ../sass/_styles.scss */
@@ -623,26 +623,26 @@ footer {
   /* line 389, ../sass/_styles.scss */
   footer .list-title {
     margin-bottom: 18px;
-    padding-bottom: 4px;
     border-bottom: 2px solid #8ab9d1;
     font-style: italic;
-    font-size: 32px; }
-  /* line 396, ../sass/_styles.scss */
+    font-size: 24px; }
+  /* line 395, ../sass/_styles.scss */
   footer .prev-posts {
     display: inline;
     float: left;
     width: 460px;
     margin: 0 10px;
     min-height: 250px; }
-    /* line 399, ../sass/_styles.scss */
+    /* line 398, ../sass/_styles.scss */
     footer .prev-posts p {
       padding-top: 72px; }
-    /* line 402, ../sass/_styles.scss */
+    /* line 401, ../sass/_styles.scss */
     footer .prev-posts li {
       display: block;
       width: 1000.0px;
       margin: 0 -20px;
-      margin-top: 18px; }
+      margin-top: 18px;
+      font-size: 32px; }
       /* line 49, ../sass/_mixins.scss */
       footer .prev-posts li:before, footer .prev-posts li:after {
         content: "";
@@ -659,20 +659,20 @@ footer {
         float: left;
         width: 280px;
         margin: 0 20px;
-        color: #f9f9f9; }
-        /* line 408, ../sass/_styles.scss */
+        font-size: 20px;
+        font-style: italic; }
+        /* line 409, ../sass/_styles.scss */
         footer .prev-posts li .recent-title a:hover {
-          color: #8ab9d1; }
-      /* line 412, ../sass/_styles.scss */
+          color: #f9f9f9; }
+      /* line 413, ../sass/_styles.scss */
       footer .prev-posts li span.date {
         float: none;
-        color: #d9d9d9;
+        color: rgba(217, 217, 217, 0.6);
         display: inline;
         float: left;
         width: 280px;
         margin: 0 20px;
         position: relative;
-        top: 6px;
         font-size: 16px;
         font-family: "Source Sans Pro", "Open Sans";
         text-transform: uppercase; }
@@ -685,10 +685,15 @@ footer {
     width: 140px;
     margin: 0 10px;
     margin-left: 330px;
-    padding-top: 72px; }
-    /* line 432, ../sass/_styles.scss */
+    padding-top: 72px;
+    font-size: 18px;
+    font-style: italic; }
+    /* line 434, ../sass/_styles.scss */
+    footer .social a:hover {
+      color: #f9f9f9; }
+    /* line 439, ../sass/_styles.scss */
     footer .social ul li {
       margin-bottom: 18px; }
-      /* line 434, ../sass/_styles.scss */
+      /* line 441, ../sass/_styles.scss */
       footer .social ul li:last-child {
         margin-bottom: 0; }
