@@ -10,10 +10,12 @@
 /////////////////
 
 // Defaults which you can freely override
-$column-width: 60px;
-$gutter-width: 20px;
+$column-width: 7%;
+$gutter-width: 1.3333%;
 $columns: 12;
+
 $total-width: 100%;
+
 
 // Utility function — you should never need to modify this
 @function gridsystem-width($columns:$columns) {

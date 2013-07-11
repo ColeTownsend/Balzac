@@ -91,17 +91,19 @@ hr {
 
 .wrap {
     max-width: 960px;
+    width: 98vw;
+    float: none;
     margin: 0 auto;
     @include clearfix;
 }
 
 .post {
-    @include column(8);
+    @include column(7);
+    max-width: 700px;
     display: block;
     margin: 0 auto;
     float: none;
 }
-
 
 
 /* Header */
@@ -165,9 +167,9 @@ header.site-header nav {
     
     .overlay {
         vertical-align: middle;
+        min-height: 200px;
         height: 50vh;
         width: 100%;
-        min-height: 400px;
         max-height: 800px;
         position: absolute;
         z-index: 2;
@@ -176,9 +178,9 @@ header.site-header nav {
     
     .featured-image {
         vertical-align: middle;
+        min-height: 200px;
         height: 50vh;
         width: 100%;
-        min-height: 400px;
         max-height: 800px;
         background-position: center center;
         background-size: cover;
@@ -229,21 +231,25 @@ img.loading {
 .archive {
     @include column(10);
     display: block;
+    margin: 0 auto;
     float: none;
     margin-top: 50px;
 }
 
 .archive-wrap {
-    @include column(8);
-    @include push(4);
+    @include column(12);
     display: block;
+    margin: 0 auto;
     float: none;
-    
     
     // Post Listing
     .post-list {
         list-style-type: none;
         list-style: none;
+        @include column(7);
+        @include push(3);
+        display: block;
+        float: none;
         
         lh h1 {
             font-size: $fs2;
@@ -251,12 +257,40 @@ img.loading {
         }
         
         li {
-            @include column(8);
+            @include column(12);
             display: block;
             float: none;
-            margin: 0;
             font-size: $fs3;
-            margin-bottom: $lh;
+            margin-bottom: $lh*2;
+            position: relative;
+            
+            a {
+                position: relative;
+            }
+            
+            a:visited:after {
+                content:'✓';
+                color: $grey-light;
+                font-family: "Entypo";
+                position: absolute;
+                margin-left: -80px;
+                font-size: 50px;
+                left: 0;
+                top: -10px;
+                text-align: center;
+            }
+            
+            a:after {
+                content:'❞';
+                color: black;
+                font-family: "Entypo";
+                position: absolute;
+                margin-left: -80px;
+                font-size: 50px;
+                top: -10px;
+                left: 0;
+                text-align: center;
+            }
             
             h1 {
                 font-size: $fs3;
@@ -321,7 +355,7 @@ img.loading {
     }
     
     img {
-        max-width: 100%;
+        width: 100%;
         height: auto;
         display: block;
         margin: $lh auto;
