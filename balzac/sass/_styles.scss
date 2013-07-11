@@ -185,7 +185,6 @@ header.site-header nav {
         background-position: center center;
         background-size: cover;
         vertical-align: middle;
-        background: url(../img/typewriter.jpg);
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -282,7 +281,7 @@ img.loading {
             
             a:after {
                 content:'❞';
-                color: black;
+                color: $grey-light;
                 font-family: "Entypo";
                 position: absolute;
                 margin-left: -80px;
