@@ -49,7 +49,7 @@ small {
     background: $hilite;
 }
 
-blockquote {
+blockquote, blockquote p {
     font-style: italic;
     line-height: 1.3em;
     text-align: center;
@@ -521,7 +521,7 @@ h1 {
     font-size: $fs2;
 }
 
-blockquote {
+blockquote, blockquote p {
     font-size: $fs3;
 }
 
@@ -557,7 +557,7 @@ footer {
     font-size: $fs4;
 } 
 
-blockquote {
+blockquote, blockquote p {
     font-size: $fs4;
 }
 

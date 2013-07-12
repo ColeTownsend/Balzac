@@ -187,7 +187,7 @@ h6, .h6 {
 }
 
 /* line 33, ../sass/_type.scss */
-blockquote {
+blockquote, blockquote p {
   font-size: 48px;
 }
 
@@ -262,7 +262,7 @@ small {
 }
 
 /* line 52, ../sass/_styles.scss */
-blockquote {
+blockquote, blockquote p {
   font-style: italic;
   line-height: 1.3em;
   text-align: center;
@@ -853,7 +853,7 @@ footer .social ul li:last-child {
   }
 
   /* line 524, ../sass/_styles.scss */
-  blockquote {
+  blockquote, blockquote p {
     font-size: 32px;
   }
 
@@ -879,7 +879,7 @@ footer .social ul li:last-child {
   }
 
   /* line 560, ../sass/_styles.scss */
-  blockquote {
+  blockquote, blockquote p {
     font-size: 24px;
   }
 
