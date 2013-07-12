@@ -1,8 +1,6 @@
 <?php theme_include('header'); ?>
 
     <section class="article" id="article-<?php echo article_id(); ?>">
-      
-      <img src="<?php echo theme_url('/img/loading.gif'); ?>" class="loading" alt="Loading...">
       <div class="overlay"></div>
       <div class="featured-image" style="background-image: url(<?php echo article_custom_field('featured-image', 'http://coletownsend.com/themes/zleek-master/img/feature-img.svg'); ?>);"></div>
 

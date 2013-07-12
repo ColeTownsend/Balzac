@@ -27,8 +27,8 @@ $accent: #24536B;
 /* Typography
    ========================================================================== */
 
-$sans: "Source Sans Pro", "Open Sans";
-$serif: "Calendas Plus","Crimson Text";
+$sans: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+$serif: "Calendas Plus","Crimson Text", "Hoefler Text", "Georgia", serif;
 
    
    
@@ -41,7 +41,9 @@ $fs1:64px;
 $fs2:48px;
 $fs3:32px;
 $fs4:24px;
+
 $fsp:20px;
+
 $fs5:16px;
 $fs6:12px;
 
@@ -63,8 +65,8 @@ $footerHeight: 320px;
 $breakpoint-1-max-width:480px;
 
 /* Tablet */
-$breakpoint-2-min-width:800px;
-$breakpoint-2-max-width:1024px;
+$breakpoint-2-max-width:800px;
+$breakpoint-3-max-width:1200px;
 
 /* Style Tidbits
    ========================================================================== */

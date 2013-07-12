@@ -75,46 +75,6 @@ a {
   box-sizing: border-box;
 }
 
-/* -------------------------------------------------------------
-  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
-  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
-
-  List of CSS3 Sass Mixins File to be @imported and @included as you need
-
-  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
-  ENDING css files
-
-  note: All CSS3 Properties are being supported by Safari 5
-  more info: http://www.findmebyip.com/litmus/#css3-properties
-
-  Mixins available:
-    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
-    -   background-size         - arguments: Width: 100%, Height: 100%
-    -   border-radius           - arguments: Radius: 5px
-    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
-    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
-    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
-    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
-    -   box-sizing              - arguments: Type: border-box
-    -   columns                 - arguments: Count: 3, Gap: 10
-    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
-    -   flex                    - arguments: Value: 1
-    -   flip                    - arguments: ScaleX: -1
-    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
-    -   opacity                 - arguments: Opacity: 0.5
-    -   outline radius          - arguments: Radius: 5px
-    -   resize                  - arguments: Direction: both
-    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
-    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
-    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
-    -   transform               - arguments: Parameters: null
-    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
-    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
-
-------------------------------------------------------------- */
-/* BACKGROUND GRADIENT */
-/* BACKGROUND SIZE */
-/* BORDER RADIUS */
 /* BOX */
 /* BOX RGBA */
 /* BOX SHADOW */
@@ -157,24 +117,20 @@ a {
 body {
   width: 100%;
 }
-/* line 49, ../sass/_mixins.scss */
+/* line 11, ../sass/_mixins.scss */
 body:before, body:after {
   content: "";
   display: table;
 }
-/* line 52, ../sass/_mixins.scss */
+/* line 14, ../sass/_mixins.scss */
 body:after {
   clear: both;
 }
-/* line 55, ../sass/_mixins.scss */
+/* line 17, ../sass/_mixins.scss */
 body {
   zoom: 1;
 }
 
-/* Mobile
-   ========================================================================== */
-/* Tablet
-   ========================================================================== */
 /* ==========================================================================
    TYPE
    - Meat
@@ -238,7 +194,7 @@ blockquote {
 /************ Basic *************/
 /* line 3, ../sass/_styles.scss */
 body {
-  font-family: "Calendas Plus", "Crimson Text";
+  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
   color: #3b3b3b;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
@@ -251,7 +207,7 @@ body {
 
 /* line 14, ../sass/_styles.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Calendas Plus", "Crimson Text";
+  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
 }
 
 /* line 18, ../sass/_styles.scss */
@@ -263,40 +219,39 @@ p {
 /* line 23, ../sass/_styles.scss */
 a, a:visited, a:active {
   color: #8ab9d1;
-  -moz-transition: color 0.25s ease-in-out;
-  -o-transition: color 0.25s ease-in-out;
-  -webkit-transition: color 0.25s ease-in-out;
-  -ms-transition: color 0.25s ease-in-out;
-  transition: color 0.25s ease-in-out;
-  padding-bottom: 1px;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
-/* line 29, ../sass/_styles.scss */
+/* line 28, ../sass/_styles.scss */
 a:hover {
-  color: #3b3b3b;
-  -moz-transition: color 0.25s ease-in-out;
-  -o-transition: color 0.25s ease-in-out;
-  -webkit-transition: color 0.25s ease-in-out;
-  -ms-transition: color 0.25s ease-in-out;
-  transition: color 0.25s ease-in-out;
+  color: #24536b;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
-/* line 34, ../sass/_styles.scss */
+/* line 33, ../sass/_styles.scss */
 em {
   font-style: italic;
 }
 
-/* line 38, ../sass/_styles.scss */
+/* line 37, ../sass/_styles.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 42, ../sass/_styles.scss */
+/* line 41, ../sass/_styles.scss */
 small {
   font-size: 16px;
 }
 
-/* line 46, ../sass/_styles.scss */
+/* line 45, ../sass/_styles.scss */
 .hilite {
   display: inline-block;
   padding: 0 0.3em;
@@ -306,7 +261,7 @@ small {
   background: #fffbd7;
 }
 
-/* line 53, ../sass/_styles.scss */
+/* line 52, ../sass/_styles.scss */
 blockquote {
   font-style: italic;
   line-height: 1.3em;
@@ -315,7 +270,7 @@ blockquote {
   margin-bottom: 30px;
 }
 
-/* line 61, ../sass/_styles.scss */
+/* line 60, ../sass/_styles.scss */
 hr {
   display: block;
   margin: 0 auto;
@@ -328,27 +283,27 @@ hr {
 }
 
 /* Variables and Building Blocks */
-/* line 74, ../sass/_styles.scss */
+/* line 73, ../sass/_styles.scss */
 .icons {
   font-family: "Icons";
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 80, ../sass/_styles.scss */
+/* line 79, ../sass/_styles.scss */
 .bb {
   border-bottom: 2px solid #8ab9d1;
 }
 
 /************ Layout *************/
-/* line 86, ../sass/_styles.scss */
+/* line 85, ../sass/_styles.scss */
 #bump {
   min-height: 100%;
   height: auto;
   margin: 0 auto-320px;
 }
 
-/* line 92, ../sass/_styles.scss */
+/* line 91, ../sass/_styles.scss */
 .wrap {
   max-width: 960px;
   display: inline;
@@ -359,21 +314,21 @@ hr {
   margin: 0 auto;
   overflow: hidden;
 }
-/* line 49, ../sass/_mixins.scss */
+/* line 11, ../sass/_mixins.scss */
 .wrap:before, .wrap:after {
   content: "";
   display: table;
 }
-/* line 52, ../sass/_mixins.scss */
+/* line 14, ../sass/_mixins.scss */
 .wrap:after {
   clear: both;
 }
-/* line 55, ../sass/_mixins.scss */
+/* line 17, ../sass/_mixins.scss */
 .wrap {
   zoom: 1;
 }
 
-/* line 101, ../sass/_styles.scss */
+/* line 100, ../sass/_styles.scss */
 .post {
   display: inline;
   float: left;
@@ -386,53 +341,53 @@ hr {
 }
 
 /* Header */
-/* line 112, ../sass/_styles.scss */
+/* line 111, ../sass/_styles.scss */
 header.site-header {
   padding: 20px 0;
   position: absolute;
   width: 100%;
   z-index: 5000;
 }
-/* line 118, ../sass/_styles.scss */
+/* line 117, ../sass/_styles.scss */
 header.site-header .wrap {
   max-width: 90vw;
 }
 
-/* line 126, ../sass/_styles.scss */
+/* line 125, ../sass/_styles.scss */
 #bump .darken a {
   color: #3b3b3b;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-/* line 130, ../sass/_styles.scss */
+/* line 129, ../sass/_styles.scss */
 #bump .darken a:hover {
-  border-bottom: 2px solid #3b3b3b;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  color: #8ab9d1;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-/* line 138, ../sass/_styles.scss */
+/* line 137, ../sass/_styles.scss */
 header.site-header a.menu {
   display: none;
 }
 
-/* line 142, ../sass/_styles.scss */
+/* line 141, ../sass/_styles.scss */
 header.site-header hgroup h1, header.site-header nav ul {
-  font-family: "Source Sans Pro", "Open Sans";
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
 }
 
-/* line 145, ../sass/_styles.scss */
+/* line 144, ../sass/_styles.scss */
 header.site-header hgroup {
   float: left;
   padding-left: 5vw;
 }
-/* line 148, ../sass/_styles.scss */
+/* line 147, ../sass/_styles.scss */
 header.site-header hgroup h1 {
   font-weight: 700;
   font-size: 18px;
@@ -441,7 +396,7 @@ header.site-header hgroup h1 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-/* line 156, ../sass/_styles.scss */
+/* line 155, ../sass/_styles.scss */
 header.site-header hgroup a {
   color: #fff;
   -moz-transition: all 0.2s ease;
@@ -450,9 +405,9 @@ header.site-header hgroup a {
   -ms-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 160, ../sass/_styles.scss */
+/* line 159, ../sass/_styles.scss */
 header.site-header hgroup a:hover {
-  border-bottom: 2px solid white;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -460,26 +415,26 @@ header.site-header hgroup a:hover {
   transition: all 0.2s ease;
 }
 
-/* line 168, ../sass/_styles.scss */
+/* line 166, ../sass/_styles.scss */
 header.site-header nav {
   float: right;
   display: block;
   padding-right: 5vw;
 }
-/* line 49, ../sass/_mixins.scss */
+/* line 11, ../sass/_mixins.scss */
 header.site-header nav:before, header.site-header nav:after {
   content: "";
   display: table;
 }
-/* line 52, ../sass/_mixins.scss */
+/* line 14, ../sass/_mixins.scss */
 header.site-header nav:after {
   clear: both;
 }
-/* line 55, ../sass/_mixins.scss */
+/* line 17, ../sass/_mixins.scss */
 header.site-header nav {
   zoom: 1;
 }
-/* line 173, ../sass/_styles.scss */
+/* line 171, ../sass/_styles.scss */
 header.site-header nav ul li {
   font-size: 16px;
   text-transform: uppercase;
@@ -488,7 +443,7 @@ header.site-header nav ul li {
   position: relative;
   margin-left: 20px;
 }
-/* line 180, ../sass/_styles.scss */
+/* line 178, ../sass/_styles.scss */
 header.site-header nav ul li a {
   color: white;
   -moz-transition: all 0.2s ease;
@@ -497,9 +452,9 @@ header.site-header nav ul li a {
   -ms-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 183, ../sass/_styles.scss */
+/* line 181, ../sass/_styles.scss */
 header.site-header nav ul li a:hover {
-  border-bottom: 2px solid white;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -508,12 +463,12 @@ header.site-header nav ul li a:hover {
 }
 
 /* Article Stuff */
-/* line 195, ../sass/_styles.scss */
+/* line 193, ../sass/_styles.scss */
 .article {
   position: relative;
   margin-bottom: 30px;
 }
-/* line 199, ../sass/_styles.scss */
+/* line 197, ../sass/_styles.scss */
 .article .overlay {
   vertical-align: middle;
   min-height: 360px;
@@ -522,9 +477,9 @@ header.site-header nav ul li a:hover {
   max-height: 800px;
   position: absolute;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.55);
 }
-/* line 210, ../sass/_styles.scss */
+/* line 208, ../sass/_styles.scss */
 .article .featured-image {
   vertical-align: middle;
   min-height: 360px;
@@ -541,36 +496,36 @@ header.site-header nav ul li a:hover {
   top: 0;
   z-index: -1;
 }
-/* line 225, ../sass/_styles.scss */
+/* line 223, ../sass/_styles.scss */
 .article .featured-image img {
   max-height: 800px;
 }
-/* line 231, ../sass/_styles.scss */
+/* line 229, ../sass/_styles.scss */
 .article header {
   margin: 60px 0 30px 0;
 }
-/* line 233, ../sass/_styles.scss */
+/* line 231, ../sass/_styles.scss */
 .article header hgroup {
   color: #3b3b3b;
   position: relative;
   text-align: center;
   width: 100%;
 }
-/* line 238, ../sass/_styles.scss */
+/* line 236, ../sass/_styles.scss */
 .article header hgroup .date {
-  font-family: "Source Sans Pro", "Open Sans";
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #d9d9d9;
   text-transform: uppercase;
   margin-top: 20px;
 }
-/* line 248, ../sass/_styles.scss */
+/* line 246, ../sass/_styles.scss */
 .article header .intro {
   text-align: left;
 }
 
-/* line 261, ../sass/_styles.scss */
+/* line 259, ../sass/_styles.scss */
 .archive {
   display: inline;
   float: left;
@@ -581,18 +536,19 @@ header.site-header nav ul li a:hover {
   float: none;
 }
 
-/* line 268, ../sass/_styles.scss */
+/* line 266, ../sass/_styles.scss */
 .archive-wrap {
   display: inline;
   float: left;
   width: 97%;
   margin: 0 1.5%;
+  max-width: 800px;
   display: block;
   margin: 0 auto;
   float: none;
   padding-top: 140px;
 }
-/* line 276, ../sass/_styles.scss */
+/* line 275, ../sass/_styles.scss */
 .archive-wrap .post-list {
   list-style-type: none;
   list-style: none;
@@ -604,12 +560,12 @@ header.site-header nav ul li a:hover {
   display: block;
   float: none;
 }
-/* line 284, ../sass/_styles.scss */
+/* line 283, ../sass/_styles.scss */
 .archive-wrap .post-list lh h1 {
   font-size: 48px;
   margin-bottom: 45px;
 }
-/* line 289, ../sass/_styles.scss */
+/* line 288, ../sass/_styles.scss */
 .archive-wrap .post-list li {
   display: block;
   float: none;
@@ -617,11 +573,11 @@ header.site-header nav ul li a:hover {
   margin-bottom: 60px;
   position: relative;
 }
-/* line 296, ../sass/_styles.scss */
+/* line 295, ../sass/_styles.scss */
 .archive-wrap .post-list li a {
   position: relative;
 }
-/* line 300, ../sass/_styles.scss */
+/* line 299, ../sass/_styles.scss */
 .archive-wrap .post-list li a:visited:after {
   content: '✓';
   color: #d9d9d9;
@@ -633,7 +589,7 @@ header.site-header nav ul li a:hover {
   top: -10px;
   text-align: center;
 }
-/* line 312, ../sass/_styles.scss */
+/* line 311, ../sass/_styles.scss */
 .archive-wrap .post-list li a:after {
   content: '❞';
   color: #d9d9d9;
@@ -645,36 +601,36 @@ header.site-header nav ul li a:hover {
   left: 0;
   text-align: center;
 }
-/* line 324, ../sass/_styles.scss */
+/* line 323, ../sass/_styles.scss */
 .archive-wrap .post-list li h1 {
   font-size: 32px;
   font-style: italic;
 }
-/* line 330, ../sass/_styles.scss */
+/* line 329, ../sass/_styles.scss */
 .archive-wrap .post-list .summary {
   font-size: 18px;
   line-height: 1.45em;
 }
-/* line 335, ../sass/_styles.scss */
+/* line 334, ../sass/_styles.scss */
 .archive-wrap .post-list .date time {
   position: relative;
   top: -6px;
   font-size: 14px;
   font-weight: bold;
-  font-family: "Source Sans Pro", "Open Sans";
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
   color: #d9d9d9;
   text-transform: uppercase;
   vertical-align: middle;
 }
 
-/* line 352, ../sass/_styles.scss */
+/* line 351, ../sass/_styles.scss */
 .post .deets {
   position: relative;
   top: 45px;
   z-index: 5;
 }
-/* line 356, ../sass/_styles.scss */
+/* line 355, ../sass/_styles.scss */
 .post .deets .date {
   font-size: 16px;
   position: relative;
@@ -682,28 +638,28 @@ header.site-header nav ul li a:hover {
   left: 6px;
   color: #999999;
 }
-/* line 365, ../sass/_styles.scss */
+/* line 364, ../sass/_styles.scss */
 .post h1 {
   font-style: italic;
 }
-/* line 369, ../sass/_styles.scss */
+/* line 368, ../sass/_styles.scss */
 .post figure {
   margin: 30px 0;
 }
-/* line 372, ../sass/_styles.scss */
+/* line 371, ../sass/_styles.scss */
 .post figure img {
   margin-bottom: 15px;
 }
-/* line 376, ../sass/_styles.scss */
+/* line 375, ../sass/_styles.scss */
 .post figure figcaption {
   font-size: 16px;
-  font-family: "Source Sans Pro", "Open Sans";
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   color: #bbbbbb;
   text-align: center;
 }
-/* line 386, ../sass/_styles.scss */
+/* line 385, ../sass/_styles.scss */
 .post img {
   width: 100%;
   height: auto;
@@ -713,18 +669,18 @@ header.site-header nav ul li a:hover {
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 394, ../sass/_styles.scss */
+/* line 393, ../sass/_styles.scss */
 .post h1, .post h2, .post h3, .post h4, .post h5 {
   margin-bottom: 30px;
 }
-/* line 398, ../sass/_styles.scss */
+/* line 397, ../sass/_styles.scss */
 .post .share {
   text-align: center;
   display: block;
   margin: 0 auto;
   width: 76px;
   font-size: 16px;
-  font-family: "Source Sans Pro", "Open Sans";
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
@@ -735,7 +691,7 @@ header.site-header nav ul li a:hover {
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 412, ../sass/_styles.scss */
+/* line 411, ../sass/_styles.scss */
 .post .share:hover {
   color: #8ab9d1;
   border-color: rgba(138, 185, 209, 0.7);
@@ -747,21 +703,21 @@ header.site-header nav ul li a:hover {
 }
 
 /* Footer Stuff */
-/* line 421, ../sass/_styles.scss */
+/* line 420, ../sass/_styles.scss */
 .push {
   height: 320px !important;
 }
 
-/* line 425, ../sass/_styles.scss */
+/* line 424, ../sass/_styles.scss */
 footer {
   width: 100%;
   background: #3b3b3b;
   height: 320px;
-  font-size: 16px;
+  font-size: 20px;
   color: #f9f9f9;
   position: relative;
 }
-/* line 434, ../sass/_styles.scss */
+/* line 433, ../sass/_styles.scss */
 footer section {
   display: inline;
   float: left;
@@ -773,38 +729,38 @@ footer section {
   display: block;
   margin: 0 auto;
 }
-/* line 49, ../sass/_mixins.scss */
+/* line 11, ../sass/_mixins.scss */
 footer section:before, footer section:after {
   content: "";
   display: table;
 }
-/* line 52, ../sass/_mixins.scss */
+/* line 14, ../sass/_mixins.scss */
 footer section:after {
   clear: both;
 }
-/* line 55, ../sass/_mixins.scss */
+/* line 17, ../sass/_mixins.scss */
 footer section {
   zoom: 1;
 }
-/* line 441, ../sass/_styles.scss */
+/* line 440, ../sass/_styles.scss */
 footer small {
   text-align: center;
   display: block;
   width: 100%;
   position: absolute;
   bottom: 8px;
-  font-family: "Source Sans Pro", "Open Sans";
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
   color: rgba(249, 249, 249, 0.1);
 }
-/* line 452, ../sass/_styles.scss */
+/* line 451, ../sass/_styles.scss */
 footer .list-title {
   margin-bottom: 15px;
   border-bottom: 2px solid #8ab9d1;
   font-style: italic;
   font-size: 24px;
 }
-/* line 458, ../sass/_styles.scss */
+/* line 457, ../sass/_styles.scss */
 footer .prev-posts {
   display: inline;
   float: left;
@@ -814,45 +770,43 @@ footer .prev-posts {
   min-height: 250px;
   padding-left: 5vw;
 }
-/* line 463, ../sass/_styles.scss */
+/* line 462, ../sass/_styles.scss */
 footer .prev-posts p {
   padding-top: 60px;
 }
-/* line 466, ../sass/_styles.scss */
+/* line 465, ../sass/_styles.scss */
 footer .prev-posts li {
   display: block;
   width: 102.5%;
   margin: 0 -1.25%;
   margin-top: 15px;
-  font-size: 32px;
 }
-/* line 49, ../sass/_mixins.scss */
+/* line 11, ../sass/_mixins.scss */
 footer .prev-posts li:before, footer .prev-posts li:after {
   content: "";
   display: table;
 }
-/* line 52, ../sass/_mixins.scss */
+/* line 14, ../sass/_mixins.scss */
 footer .prev-posts li:after {
   clear: both;
 }
-/* line 55, ../sass/_mixins.scss */
+/* line 17, ../sass/_mixins.scss */
 footer .prev-posts li {
   zoom: 1;
 }
-/* line 470, ../sass/_styles.scss */
+/* line 468, ../sass/_styles.scss */
 footer .prev-posts li .recent-title {
   display: inline;
   float: left;
   width: 64.16667%;
   margin: 0 1.25%;
-  font-size: 20px;
   font-style: italic;
 }
-/* line 475, ../sass/_styles.scss */
+/* line 472, ../sass/_styles.scss */
 footer .prev-posts li .recent-title a:hover {
   color: #f9f9f9;
 }
-/* line 480, ../sass/_styles.scss */
+/* line 477, ../sass/_styles.scss */
 footer .prev-posts li span.date {
   float: none;
   color: rgba(217, 217, 217, 0.6);
@@ -862,11 +816,11 @@ footer .prev-posts li span.date {
   margin: 0 1.25%;
   position: relative;
   font-size: 16px;
-  font-family: "Source Sans Pro", "Open Sans";
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   text-transform: uppercase;
   text-align: right;
 }
-/* line 493, ../sass/_styles.scss */
+/* line 490, ../sass/_styles.scss */
 footer .social {
   position: absolute;
   top: 109px;
@@ -875,18 +829,67 @@ footer .social {
   width: 14.16667%;
   margin: 0 1.25%;
   right: 5vw;
-  font-size: 18px;
   font-style: italic;
 }
-/* line 501, ../sass/_styles.scss */
+/* line 497, ../sass/_styles.scss */
 footer .social a:hover {
   color: #f9f9f9;
 }
-/* line 506, ../sass/_styles.scss */
+/* line 502, ../sass/_styles.scss */
 footer .social ul li {
   margin-bottom: 15px;
 }
-/* line 508, ../sass/_styles.scss */
+/* line 504, ../sass/_styles.scss */
 footer .social ul li:last-child {
   margin-bottom: 0;
+}
+
+/* Tablet
+   ========================================================================== */
+@media only screen and (max-width: 800px) {
+  /* line 520, ../sass/_styles.scss */
+  h1 {
+    font-size: 48px;
+  }
+
+  /* line 524, ../sass/_styles.scss */
+  blockquote {
+    font-size: 32px;
+  }
+
+  /* line 528, ../sass/_styles.scss */
+  footer {
+    font-size: 16px;
+  }
+  /* line 538, ../sass/_styles.scss */
+  footer .prev-posts li span.date {
+    font-size: 12px;
+  }
+  /* line 544, ../sass/_styles.scss */
+  footer .social {
+    right: 10vw;
+  }
+}
+/* Mobile
+   ========================================================================== */
+@media only screen and (max-width: 480px) {
+  /* line 556, ../sass/_styles.scss */
+  .intro {
+    font-size: 24px;
+  }
+
+  /* line 560, ../sass/_styles.scss */
+  blockquote {
+    font-size: 24px;
+  }
+
+  /* line 564, ../sass/_styles.scss */
+  footer {
+    font-size: 16px;
+  }
+
+  /* line 568, ../sass/_styles.scss */
+  small {
+    font-size: 12px;
+  }
 }

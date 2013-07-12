@@ -64,19 +64,3 @@ body {
 @mixin pull($offset:1) {
 	margin-right: $total-width*((($gutter-width+$column-width)*$offset) / gridsystem-width($columns)) + $total-width*(($gutter-width*.5)/gridsystem-width($columns));
 }
-   
-/* Mobile
-   ========================================================================== */
-
-@media screen and ($breakpoint-1-max-width) {
-
-}
-
-
-
-/* Tablet
-   ========================================================================== */
-
-@media ($breakpoint-2-min-width) and ($breakpoint-2-max-width) {
-
-}

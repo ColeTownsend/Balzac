@@ -22,13 +22,12 @@ p {
 
 a, a:visited, a:active {
     color: $link;
-    @include transit(color,0.25s,ease-in-out);
-    padding-bottom: 1px;
+    @include transit(all,0.25s,ease-in-out);
 }
 
 a:hover {
-    color: $black;
-    @include transit(color,.25s, ease-in-out)
+    color: $accent;
+    @include transit(all,.25s, ease-in-out)
 }
 
 em {
@@ -125,11 +124,11 @@ header.site-header {
       
       a {
       color: $black;
-      @include transit(all, .2s, ease);
+      @include transit(all, .2s, ease-in-out);
 
       &:hover {
-        @include underline(2px, solid, $black);
-        @include transit(all, .2s, ease);
+        color: $link;
+        @include transit(all, .2s, ease-in-out);
         }
       }
 }
@@ -158,11 +157,10 @@ header.site-header hgroup {
       @include transit(all, .2s, ease);
 
       &:hover {
-        @include underline(2px, solid, white);
+        @include tshd(0, 0, 3px, rgba(255,255,255,.6));
         @include transit(all, .2s, ease);
       }
   }
-  
 }
 
 header.site-header nav {
@@ -181,7 +179,7 @@ header.site-header nav {
         color: white;
         @include transit(all, .2s, ease);
         &:hover {
-            @include underline(2px, solid, white);
+            @include tshd(0, 0, 3px, rgba(255,255,255,.6));
             @include transit(all, .2s, ease);
         }
     } 
@@ -204,7 +202,7 @@ header.site-header nav {
         max-height: 800px;
         position: absolute;
         z-index: 2;
-        background: rgba(0,0,0,.5);
+        background: rgba(0,0,0,.55);
     }
     
     .featured-image {
@@ -267,6 +265,7 @@ img.loading {
 
 .archive-wrap {
     @include column(10);
+    max-width: 800px;
     display: block;
     margin: 0 auto;
     float: none;
@@ -426,7 +425,7 @@ footer {
     width: 100%;
     background: $black;
     height: $footerHeight;
-    font-size: $fs5;
+    font-size: $fsp;
     color: $white;
     position: relative;
         
@@ -466,10 +465,8 @@ footer {
         li {
             @include row(12);
             margin-top: $lh/2;
-            font-size: $fs3;
             .recent-title {
                 @include column(8,12);
-                font-size: 20px;
                 font-style: italic;
                 a {
                     &:hover {
@@ -495,7 +492,6 @@ footer {
         top: 109px;
         @include column(2,12);
         right: 5vw;
-        font-size: 18px;
         font-style: italic;
         a {
             &:hover {
@@ -512,3 +508,69 @@ footer {
         }
     }
 }
+
+
+/* Tablet
+   ========================================================================== */
+
+@media only screen and (max-width: $breakpoint-2-max-width) {
+    
+// Type Fixes
+
+h1 {
+    font-size: $fs2;
+}
+
+blockquote {
+    font-size: $fs3;
+}
+
+footer {
+    font-size: $fs5;
+    
+    .prev-posts {
+        li  {
+          
+          .recent-title {
+              
+          }
+          
+          span.date {
+              font-size: $fs6;
+          }  
+        }
+    }
+    
+    .social {
+        right: 10vw;
+    }
+}
+    
+    
+}
+
+/* Mobile
+   ========================================================================== */
+
+@media only screen and (max-width: $breakpoint-1-max-width) {
+.intro {
+    font-size: $fs4;
+} 
+
+blockquote {
+    font-size: $fs4;
+}
+
+footer {
+    font-size: $fs5;
+}
+
+small {
+    font-size: $fs6;
+}
+
+}
+
+
+
+
