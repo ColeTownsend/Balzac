@@ -10,6 +10,7 @@
     
     <!-- Type -->
     <link rel="stylesheet" href="link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>" media="all" />
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://coletownsend.com/web/content/fonts/Entypo/Entypo-Mini/style.css" media="all">
     
     <!-- RSS -->    
