@@ -117,12 +117,10 @@ header.site-header {
   .wrap {
       max-width: 90vw;
   }
-  
-  .darken {
-      
-      .archive {
-          
-      }
+
+}
+
+#bump .darken {
       
       a {
       color: $black;
@@ -131,11 +129,11 @@ header.site-header {
       &:hover {
         @include underline(2px, solid, $black);
         @include transit(all, .2s, ease);
+        }
       }
-  }
-  }
-
 }
+
+
 header.site-header a.menu {
   display: none;
 }
@@ -264,7 +262,6 @@ img.loading {
     display: block;
     margin: 0 auto;
     float: none;
-    margin-top: 100px;
 }
 
 .archive-wrap {
@@ -272,6 +269,7 @@ img.loading {
     display: block;
     margin: 0 auto;
     float: none;
+    padding-top: 140px;
     
     // Post Listing
     .post-list {
@@ -284,7 +282,7 @@ img.loading {
         
         lh h1 {
             font-size: $fs2;
-            margin-bottom: $lh;
+            margin-bottom: $lh*1.5;
         }
         
         li {
