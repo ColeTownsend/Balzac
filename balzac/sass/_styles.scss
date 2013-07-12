@@ -95,6 +95,7 @@ hr {
     float: none;
     margin: 0 auto;
     @include clearfix;
+    overflow: hidden;
 }
 
 .post {
@@ -456,40 +457,44 @@ footer {
     }
     .prev-posts {
         @include column(6,10);
+        max-width: 600px;
         min-height: 250px;
+        padding-left: 5vw;
         p {
             padding-top: $lh*2;
         }
         li {
-            @include row(6);
+            @include row(12);
             margin-top: $lh/2;
             font-size: $fs3;
-            .recent-title a {
-                @include column(2,6);
+            .recent-title {
+                @include column(8,12);
                 font-size: 20px;
                 font-style: italic;
-                &:hover {
-                    color: $white;
+                a {
+                    &:hover {
+                        color: $white;
+                    }
                 }
             }
             span.date {
                 float: none;
                 color: transparentize($grey-light, .4);
-                @include column(2,6);
+                @include column(4,12);
                 position: relative;
                 font-size: $fs5;
                 font-family: $sans;
                 text-transform: uppercase;
+                text-align: right;
             }
         }
     }
     
     .social {
-        position: relative;
-        top: 60px;
+        position: absolute;
+        top: 109px;
         @include column(2,12);
-        @include push(4);
-        padding-top: $lh*2;
+        right: 5vw;
         font-size: 18px;
         font-style: italic;
         a {
