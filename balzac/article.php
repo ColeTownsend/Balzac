@@ -16,7 +16,7 @@
     
         <?php echo article_markdown(); ?>
           
-        <div class="btn-jacket"><a href="http://twitter.com/share?url=<?php echo full_url(); ?>&text=<?php echo article_title(); ?>&via=<?php echo twitter_account(); ?>" class="button">Share</a></div>
+        <a href="http://twitter.com/share?url=<?php echo full_url(); ?>&text=<?php echo article_title(); ?>&via=<?php echo twitter_account(); ?>" class="share">Share</a>
     
       </article>
     </section>
