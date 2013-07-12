@@ -49,7 +49,7 @@
 
 <div id="bump">
   <body class="<?php echo body_class(); ?>">
-    <header class="site-header">
+    <header class="site-header darken">
       <div class="wrap">
         <hgroup>
           <h1><a href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a></h1>
