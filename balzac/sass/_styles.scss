@@ -99,7 +99,7 @@ hr {
 
 .post {
     @include column(8);
-    max-width: 700px;
+    max-width: 680px;
     display: block;
     margin: 0 auto;
     float: none;
@@ -261,6 +261,7 @@ img.loading {
     display: block;
     margin: 0 auto;
     float: none;
+    min-height: 300px;
 }
 
 .archive-wrap {
@@ -348,6 +349,8 @@ img.loading {
 
 .post {
     
+    min-height: 300px;
+    
     .deets {
         position: relative;
         top: 45px;
@@ -418,7 +421,7 @@ img.loading {
 
 /* Footer Stuff */
 .push {
-    height: $footerHeight !important;
+    height: $footerHeight/4 !important;
 }
 
 footer {
