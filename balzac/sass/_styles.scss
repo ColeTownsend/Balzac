@@ -555,15 +555,27 @@ footer {
 /* Mobile
    ========================================================================== */
 
-@media only screen and (max-width: $breakpoint-1-max-width) {
+@media only screen and (max-width: 500px) {
     footer {
     
     .social {
         display: none;
     }
     
+    aside {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
     .prev-posts {
-        @include column(10,10)
+        @include column(10);
+        padding-left: 0;
+        float: none;
+        margin: 0 auto;
+        display: block;
+        li {
+            margin-top: $lh/2;
+        }
     }
     
     }
