@@ -877,36 +877,49 @@ footer .social ul li:last-child {
 }
 /* Mobile
    ========================================================================== */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   /* line 561, ../sass/_styles.scss */
   footer .social {
     display: none;
   }
   /* line 565, ../sass/_styles.scss */
+  footer aside {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* line 570, ../sass/_styles.scss */
   footer .prev-posts {
     display: inline;
     float: left;
     width: 97%;
     margin: 0 1.5%;
+    padding-left: 0;
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  /* line 576, ../sass/_styles.scss */
+  footer .prev-posts li {
+    margin-top: 16.5px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 574, ../sass/_styles.scss */
+  /* line 586, ../sass/_styles.scss */
   .intro {
     font-size: 24px;
   }
 
-  /* line 578, ../sass/_styles.scss */
+  /* line 590, ../sass/_styles.scss */
   blockquote, blockquote p {
     font-size: 24px;
   }
 
-  /* line 582, ../sass/_styles.scss */
+  /* line 594, ../sass/_styles.scss */
   footer {
     font-size: 16px;
   }
 
-  /* line 586, ../sass/_styles.scss */
+  /* line 598, ../sass/_styles.scss */
   small {
     font-size: 12px;
   }
