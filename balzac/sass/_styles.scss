@@ -556,6 +556,21 @@ footer {
    ========================================================================== */
 
 @media only screen and (max-width: $breakpoint-1-max-width) {
+    footer {
+    
+    .social {
+        display: none;
+    }
+    
+    .prev-posts {
+        @include column(10,10)
+    }
+    
+    }
+}
+
+
+@media only screen and (max-width: $breakpoint-1-max-width) {
 .intro {
     font-size: $fs4;
 } 
