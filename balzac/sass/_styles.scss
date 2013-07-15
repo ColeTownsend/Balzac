@@ -233,6 +233,7 @@ header.site-header nav {
             position: relative;
             text-align: center;
             width: 100%;
+            margin-top: 0;
             .date {
                 font-family: $sans;
                 font-size: $fs5;
@@ -366,6 +367,10 @@ img.loading {
     
     h1 {
         font-style: italic;
+    }
+    
+    h1, h2, h3, h4, h5 {
+        margin-top: $lh;
     }
     
     figure {
