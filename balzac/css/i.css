@@ -588,7 +588,7 @@ header.site-header nav ul li a:hover {
   margin-left: -70px;
   font-size: 60px;
   left: 0;
-  top: -12px;
+  top: -6px;
   text-align: center;
 }
 /* line 313, ../sass/_styles.scss */
@@ -599,7 +599,7 @@ header.site-header nav ul li a:hover {
   position: absolute;
   margin-left: -70px;
   font-size: 60px;
-  top: -12px;
+  top: -6px;
   left: 0;
   text-align: center;
 }
