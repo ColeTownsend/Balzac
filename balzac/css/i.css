@@ -583,23 +583,23 @@ header.site-header nav ul li a:hover {
 .archive-wrap .post-list li a:visited:after {
   content: '✓';
   color: #d9d9d9;
-  font-family: "Entypo";
+  font-family: "Icons";
   position: absolute;
-  margin-left: -80px;
-  font-size: 50px;
+  margin-left: -70px;
+  font-size: 60px;
   left: 0;
-  top: -10px;
+  top: -12px;
   text-align: center;
 }
 /* line 313, ../sass/_styles.scss */
 .archive-wrap .post-list li a:after {
-  content: '❞';
+  content: '“';
   color: #d9d9d9;
-  font-family: "Entypo";
+  font-family: "Icons";
   position: absolute;
-  margin-left: -80px;
-  font-size: 50px;
-  top: -10px;
+  margin-left: -70px;
+  font-size: 60px;
+  top: -12px;
   left: 0;
   text-align: center;
 }
@@ -643,24 +643,25 @@ header.site-header nav ul li a:hover {
   top: 10px;
   left: 6px;
   color: #999999;
+  margin-bottom: 16.5px;
 }
-/* line 368, ../sass/_styles.scss */
+/* line 369, ../sass/_styles.scss */
 .post h1 {
   font-style: italic;
 }
-/* line 372, ../sass/_styles.scss */
+/* line 373, ../sass/_styles.scss */
 .post h1, .post h2, .post h3, .post h4, .post h5 {
   padding-top: 22px;
 }
-/* line 376, ../sass/_styles.scss */
+/* line 377, ../sass/_styles.scss */
 .post figure {
   margin: 33px 0;
 }
-/* line 379, ../sass/_styles.scss */
+/* line 380, ../sass/_styles.scss */
 .post figure img {
   margin-bottom: 16.5px;
 }
-/* line 383, ../sass/_styles.scss */
+/* line 384, ../sass/_styles.scss */
 .post figure figcaption {
   font-size: 16px;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
@@ -669,7 +670,7 @@ header.site-header nav ul li a:hover {
   color: #bbbbbb;
   text-align: center;
 }
-/* line 393, ../sass/_styles.scss */
+/* line 394, ../sass/_styles.scss */
 .post img {
   width: 100%;
   height: auto;
@@ -679,11 +680,11 @@ header.site-header nav ul li a:hover {
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 401, ../sass/_styles.scss */
+/* line 402, ../sass/_styles.scss */
 .post h1, .post h2, .post h3, .post h4, .post h5 {
   margin-bottom: 11px;
 }
-/* line 405, ../sass/_styles.scss */
+/* line 406, ../sass/_styles.scss */
 .post .share {
   text-align: center;
   display: block;
@@ -701,7 +702,7 @@ header.site-header nav ul li a:hover {
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 419, ../sass/_styles.scss */
+/* line 420, ../sass/_styles.scss */
 .post .share:hover {
   color: #8ab9d1;
   border-color: rgba(138, 185, 209, 0.7);
@@ -713,12 +714,12 @@ header.site-header nav ul li a:hover {
 }
 
 /* Footer Stuff */
-/* line 428, ../sass/_styles.scss */
+/* line 429, ../sass/_styles.scss */
 .push {
   height: 80px !important;
 }
 
-/* line 432, ../sass/_styles.scss */
+/* line 433, ../sass/_styles.scss */
 footer {
   width: 100%;
   background: #3b3b3b;
@@ -727,7 +728,7 @@ footer {
   color: #f9f9f9;
   position: relative;
 }
-/* line 441, ../sass/_styles.scss */
+/* line 442, ../sass/_styles.scss */
 footer section {
   display: inline;
   float: left;
@@ -752,7 +753,7 @@ footer section:after {
 footer section {
   zoom: 1;
 }
-/* line 448, ../sass/_styles.scss */
+/* line 449, ../sass/_styles.scss */
 footer small {
   text-align: center;
   display: block;
@@ -763,14 +764,14 @@ footer small {
   text-transform: uppercase;
   color: rgba(249, 249, 249, 0.1);
 }
-/* line 459, ../sass/_styles.scss */
+/* line 460, ../sass/_styles.scss */
 footer .list-title {
   margin-bottom: 16.5px;
   border-bottom: 2px solid #8ab9d1;
   font-style: italic;
   font-size: 24px;
 }
-/* line 465, ../sass/_styles.scss */
+/* line 466, ../sass/_styles.scss */
 footer .prev-posts {
   display: inline;
   float: left;
@@ -780,11 +781,11 @@ footer .prev-posts {
   min-height: 250px;
   padding-left: 5vw;
 }
-/* line 470, ../sass/_styles.scss */
+/* line 471, ../sass/_styles.scss */
 footer .prev-posts p {
   padding-top: 66px;
 }
-/* line 473, ../sass/_styles.scss */
+/* line 474, ../sass/_styles.scss */
 footer .prev-posts li {
   display: block;
   width: 102.5%;
@@ -804,7 +805,7 @@ footer .prev-posts li:after {
 footer .prev-posts li {
   zoom: 1;
 }
-/* line 476, ../sass/_styles.scss */
+/* line 477, ../sass/_styles.scss */
 footer .prev-posts li .recent-title {
   display: inline;
   float: left;
@@ -812,11 +813,11 @@ footer .prev-posts li .recent-title {
   margin: 0 1.25%;
   font-style: italic;
 }
-/* line 480, ../sass/_styles.scss */
+/* line 481, ../sass/_styles.scss */
 footer .prev-posts li .recent-title a:hover {
   color: #f9f9f9;
 }
-/* line 485, ../sass/_styles.scss */
+/* line 486, ../sass/_styles.scss */
 footer .prev-posts li span.date {
   float: none;
   color: rgba(217, 217, 217, 0.6);
@@ -830,7 +831,7 @@ footer .prev-posts li span.date {
   text-transform: uppercase;
   text-align: right;
 }
-/* line 498, ../sass/_styles.scss */
+/* line 499, ../sass/_styles.scss */
 footer .social {
   position: absolute;
   top: 109px;
@@ -841,15 +842,15 @@ footer .social {
   right: 5vw;
   font-style: italic;
 }
-/* line 505, ../sass/_styles.scss */
+/* line 506, ../sass/_styles.scss */
 footer .social a:hover {
   color: #f9f9f9;
 }
-/* line 510, ../sass/_styles.scss */
+/* line 511, ../sass/_styles.scss */
 footer .social ul li {
   margin-bottom: 16.5px;
 }
-/* line 512, ../sass/_styles.scss */
+/* line 513, ../sass/_styles.scss */
 footer .social ul li:last-child {
   margin-bottom: 0;
 }
@@ -857,25 +858,25 @@ footer .social ul li:last-child {
 /* Tablet
    ========================================================================== */
 @media only screen and (max-width: 800px) {
-  /* line 528, ../sass/_styles.scss */
+  /* line 529, ../sass/_styles.scss */
   h1 {
     font-size: 48px;
   }
 
-  /* line 532, ../sass/_styles.scss */
+  /* line 533, ../sass/_styles.scss */
   blockquote, blockquote p {
     font-size: 32px;
   }
 
-  /* line 536, ../sass/_styles.scss */
+  /* line 537, ../sass/_styles.scss */
   footer {
     font-size: 16px;
   }
-  /* line 546, ../sass/_styles.scss */
+  /* line 547, ../sass/_styles.scss */
   footer .prev-posts li span.date {
     font-size: 12px;
   }
-  /* line 552, ../sass/_styles.scss */
+  /* line 553, ../sass/_styles.scss */
   footer .social {
     right: 10vw;
   }
@@ -883,16 +884,16 @@ footer .social ul li:last-child {
 /* Mobile
    ========================================================================== */
 @media only screen and (max-width: 500px) {
-  /* line 566, ../sass/_styles.scss */
+  /* line 567, ../sass/_styles.scss */
   footer .social {
     display: none;
   }
-  /* line 570, ../sass/_styles.scss */
+  /* line 571, ../sass/_styles.scss */
   footer aside {
     width: 90%;
     margin: 0 auto;
   }
-  /* line 575, ../sass/_styles.scss */
+  /* line 576, ../sass/_styles.scss */
   footer .prev-posts {
     display: inline;
     float: left;
@@ -903,23 +904,23 @@ footer .social ul li:last-child {
     margin: 0 auto;
     display: block;
   }
-  /* line 581, ../sass/_styles.scss */
+  /* line 582, ../sass/_styles.scss */
   footer .prev-posts li {
     margin-top: 16.5px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 591, ../sass/_styles.scss */
+  /* line 592, ../sass/_styles.scss */
   .intro {
     font-size: 24px;
   }
 
-  /* line 595, ../sass/_styles.scss */
+  /* line 596, ../sass/_styles.scss */
   blockquote, blockquote p {
     font-size: 24px;
   }
 
-  /* line 599, ../sass/_styles.scss */
+  /* line 600, ../sass/_styles.scss */
   .post {
     display: inline;
     float: left;
@@ -931,18 +932,18 @@ footer .social ul li:last-child {
     float: none;
   }
 
-  /* line 607, ../sass/_styles.scss */
+  /* line 608, ../sass/_styles.scss */
   p {
     font-size: 16px;
     line-height: 24px;
   }
 
-  /* line 612, ../sass/_styles.scss */
+  /* line 613, ../sass/_styles.scss */
   footer {
     font-size: 16px;
   }
 
-  /* line 616, ../sass/_styles.scss */
+  /* line 617, ../sass/_styles.scss */
   small {
     font-size: 12px;
   }

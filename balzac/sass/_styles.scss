@@ -301,23 +301,23 @@ img.loading {
             a:visited:after {
                 content:'✓';
                 color: $grey-light;
-                font-family: "Entypo";
+                font-family: "Icons";
                 position: absolute;
-                margin-left: -80px;
-                font-size: 50px;
+                margin-left: -70px;
+                font-size: 60px;
                 left: 0;
-                top: -10px;
+                top: -12px;
                 text-align: center;
             }
             
             a:after {
-                content:'❞';
+                content:'“';
                 color: $grey-light;
-                font-family: "Entypo";
+                font-family: "Icons";
                 position: absolute;
-                margin-left: -80px;
-                font-size: 50px;
-                top: -10px;
+                margin-left: -70px;
+                font-size: 60px;
+                top: -12px;
                 left: 0;
                 text-align: center;
             }
@@ -362,6 +362,7 @@ img.loading {
             top: 10px;
             left: 6px;
             color: $grey-medium;
+            margin-bottom: $lh/2;
         }
     }
     
