@@ -73,6 +73,15 @@
       "outputAbbreviatedPath" : "\/js\/jquery.min.min.js",
       "fileType" : 64
     },
+    "\/page-portfolio.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/page-portfolio.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/retina.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -83,15 +92,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/retina.min.js",
       "fileType" : 64
-    },
-    "\/page-portfolio.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page-portfolio.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/img\/menu-dark@2x.png" : {
       "ignoreWasSetByUser" : 0,
@@ -260,17 +260,16 @@
       "outputAbbreviatedPath" : "\/js\/main.min.min.js",
       "fileType" : 64
     },
-    "\/sass\/i.scss" : {
-      "ignoreWasSetByUser" : 1,
+    "\/img\/filler.png" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/i.scss",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/i.css",
-      "fileType" : 4,
-      "debugStyle" : 1
+      "inputAbbreviatedPath" : "\/img\/filler.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/filler.png",
+      "initialSize" : 633,
+      "fileType" : 8192
     },
     "\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
@@ -303,6 +302,27 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/search.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/search.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/sass\/i.scss" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/i.scss",
+      "outputStyle" : 1,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/i.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
     "\/sass\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -315,15 +335,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/search.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/search.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -332,6 +343,17 @@
       "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/img\/filler@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/filler@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/filler@2x.png",
+      "initialSize" : 2109,
+      "fileType" : 8192
     },
     "\/sass\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
