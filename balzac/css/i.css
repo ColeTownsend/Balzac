@@ -650,7 +650,7 @@ header.site-header nav ul li a:hover {
 }
 /* line 372, ../sass/_styles.scss */
 .post h1, .post h2, .post h3, .post h4, .post h5 {
-  margin-top: 33px;
+  padding-top: 11px;
 }
 /* line 376, ../sass/_styles.scss */
 .post figure {
@@ -681,7 +681,7 @@ header.site-header nav ul li a:hover {
 }
 /* line 401, ../sass/_styles.scss */
 .post h1, .post h2, .post h3, .post h4, .post h5 {
-  margin-bottom: 33px;
+  margin-bottom: 22px;
 }
 /* line 405, ../sass/_styles.scss */
 .post .share {
