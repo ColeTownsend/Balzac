@@ -529,7 +529,7 @@ header.site-header nav ul li a:hover {
 /* line 201, ../sass/_styles.scss */
 .article .overlay {
   vertical-align: middle;
-  min-height: 60px;
+  min-height: 360px;
   height: 50vh;
   width: 100%;
   max-height: 800px;
@@ -540,7 +540,7 @@ header.site-header nav ul li a:hover {
 /* line 212, ../sass/_styles.scss */
 .article .featured-image {
   vertical-align: middle;
-  min-height: 60px;
+  min-height: 360px;
   height: 50vh;
   width: 100%;
   max-height: 800px;
@@ -999,24 +999,23 @@ footer .social ul li:last-child {
     position: absolute;
     right: 7%;
     display: block;
-    text-align: center;
     float: right;
     width: 16px;
     height: 16px;
     color: white;
   }
-  /* line 627, ../sass/_styles.scss */
+  /* line 626, ../sass/_styles.scss */
   header.site-header a.menu .icons {
     font-size: 24px;
   }
 
-  /* line 632, ../sass/_styles.scss */
+  /* line 631, ../sass/_styles.scss */
   header.site-header a.menu img {
     width: 24px;
     height: auto;
   }
 
-  /* line 637, ../sass/_styles.scss */
+  /* line 636, ../sass/_styles.scss */
   header.site-header nav {
     display: none;
     float: none;
@@ -1024,27 +1023,27 @@ footer .social ul li:last-child {
     padding-right: 0;
   }
 
-  /* line 644, ../sass/_styles.scss */
+  /* line 643, ../sass/_styles.scss */
   header.site-header nav:before {
     display: table;
     clear: both;
     content: '';
   }
 
-  /* line 650, ../sass/_styles.scss */
+  /* line 649, ../sass/_styles.scss */
   header.site-header nav ul {
     padding: 20px 0 10px 0;
     margin-top: 15px;
   }
 
-  /* line 655, ../sass/_styles.scss */
+  /* line 654, ../sass/_styles.scss */
   header.site-header nav ul li {
     display: block;
     margin-left: 0;
     font-size: 16px;
   }
 
-  /* line 661, ../sass/_styles.scss */
+  /* line 660, ../sass/_styles.scss */
   header.site-header nav ul li a {
     display: block;
     text-align: right;
@@ -1056,18 +1055,18 @@ footer .social ul li:last-child {
     width: 100%;
     color: #f9f9f9;
   }
-  /* line 671, ../sass/_styles.scss */
+  /* line 670, ../sass/_styles.scss */
   header.site-header nav ul li a:active {
     background-color: #8ab9d1;
     color: white;
   }
-  /* line 675, ../sass/_styles.scss */
+  /* line 674, ../sass/_styles.scss */
   header.site-header nav ul li a:hover {
     text-shadow: none;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 684, ../sass/_styles.scss */
+  /* line 683, ../sass/_styles.scss */
   .post {
     display: inline;
     float: left;
@@ -1079,12 +1078,12 @@ footer .social ul li:last-child {
     float: none;
   }
 
-  /* line 692, ../sass/_styles.scss */
+  /* line 691, ../sass/_styles.scss */
   footer {
     font-size: 16px;
   }
 
-  /* line 696, ../sass/_styles.scss */
+  /* line 695, ../sass/_styles.scss */
   small {
     font-size: 12px;
   }

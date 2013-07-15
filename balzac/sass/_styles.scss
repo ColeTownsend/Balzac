@@ -200,7 +200,7 @@ header.site-header nav {
     
     .overlay {
         vertical-align: middle;
-        min-height: 60px;
+        min-height: 360px;
         height: 50vh;
         width: 100%;
         max-height: 800px;
@@ -211,7 +211,7 @@ header.site-header nav {
     
     .featured-image {
         vertical-align: middle;
-        min-height: 60px;
+        min-height: 360px;
         height: 50vh;
         width: 100%;
         max-height: 800px;
@@ -619,7 +619,6 @@ footer {
     position: absolute;
     right: 7%;
     display: block;
-    text-align: center;
     float: right;
     width: 16px;
     height: 16px;
