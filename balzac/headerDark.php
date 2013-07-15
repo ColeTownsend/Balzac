@@ -57,7 +57,7 @@
         <hgroup>
           <h1><a href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a></h1>
         </hgroup>
-        <a href="#nav" class="menu"><img src="<?php echo theme_url(); ?>/img/menu-dark.png"></a>
+        <a href="#nav" class="menu"><span class='icons'>☰</span></a>
         <?php if(has_menu_items()): ?>
         <nav role="navigation">
           <ul>
