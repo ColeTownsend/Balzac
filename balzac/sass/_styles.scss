@@ -131,6 +131,10 @@ header.site-header {
         @include transit(all, .2s, ease-in-out);
         }
       }
+      
+      .menu .icons {
+          color: $black;
+      }
 }
 
 
@@ -282,8 +286,7 @@ img.loading {
         display: block;
         float: none;
         
-        lh h1 {
-            font-size: $fs2;
+        lh h2 {
             margin-bottom: $lh*1.5;
         }
         
@@ -587,27 +590,102 @@ footer {
     }
 }
 
+@media only screen and (max-width : 680px) {
+ 
+ /* All Posts */
+      
+  section.article img.loading {
+    top: 10px !important;
+    right: 6%;
+    left: inherit;
+  }
+  header.site-header {
+    min-height: 59px;
+  }
+  
+  header.site-header hgroup h1 {
+    margin-bottom: 0;
+    font-size: $fsp;
+  }
+  
+  header.site-header hgroup {
+    position: absolute;
+    left: 7%;
+    float: none;
+    padding-left: 0;
+  }
+  
+  header.site-header a.menu {
+    position: absolute;
+    right: 7%;
+    display: block;
+    float: right;
+    width: 16px;
+    height: 16px;
+    color: white;
+    .icons {
+        font-size: 24px;
+    }
+  }
+  
+  header.site-header a.menu img {
+    width: 24px;
+    height: auto;
+  }
+  
+  header.site-header nav {
+    display: none;
+    float: none;
+    width: 100%;
+    padding-right: 0;
+  }
+  
+  header.site-header nav:before {
+    display: table;
+    clear: both;
+    content: '';
+  }
+  
+  header.site-header nav ul {
+    padding: 20px 0 10px 0;
+    margin-top: 15px;
+  }
+  
+  header.site-header nav ul li {
+    display: block;
+    margin-left: 0;
+    font-size: $fs5;
+  }
+  
+  header.site-header nav ul li a {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    padding: 15px 0px;
+    padding-right: 7%;
+    position: relative;
+    left: 8px;
+    width: 100%;
+    color: $white;
+    &:active {
+      background-color: $link;
+      color: white;  
+    }
+    &:hover {
+        text-shadow: none;
+    }
+  }
+}
+
 
 @media only screen and (max-width: $breakpoint-1-max-width) {
-.intro {
-    font-size: $fs4;
-} 
-
-blockquote, blockquote p {
-    font-size: $fs4;
-}
 
 .post {
     @include column(9);
-    max-width: 680px;
+    max-width: 420px;
     display: block;
     margin: 0 auto;
     float: none;
-}
-
-p {
-    font-size: $fs5;
-    line-height: $lhsmall;
 }
 
 footer {

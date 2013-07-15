@@ -42,8 +42,3 @@ $(function(){
         setTimeout(function(){ t.addClass('slider'); }, (i+1) * 330);
     });
 });
-
-$(function() {
-  $('#arrow').localScroll({duration:600, });
-  $('#hire-me').localScroll({duration:1000});
-});
