@@ -915,11 +915,28 @@ footer .social ul li:last-child {
   }
 
   /* line 594, ../sass/_styles.scss */
+  .post {
+    display: inline;
+    float: left;
+    width: 97%;
+    margin: 0 1.5%;
+    max-width: 680px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+
+  /* line 602, ../sass/_styles.scss */
+  p {
+    font-size: 16px;
+  }
+
+  /* line 606, ../sass/_styles.scss */
   footer {
     font-size: 16px;
   }
 
-  /* line 598, ../sass/_styles.scss */
+  /* line 610, ../sass/_styles.scss */
   small {
     font-size: 12px;
   }

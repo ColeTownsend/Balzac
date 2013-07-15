@@ -591,6 +591,18 @@ blockquote, blockquote p {
     font-size: $fs4;
 }
 
+.post {
+    @include column(10);
+    max-width: 680px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+}
+
+p {
+    font-size: $fs5;
+}
+
 footer {
     font-size: $fs5;
 }
