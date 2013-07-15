@@ -24,10 +24,12 @@
 
   <!-- If they're out, get some from the cellar -->
   <script>window.jQuery || document.write('<script src="<?php echo theme_url('/js/jquery.js'); ?>"><\/script>')</script>
-  <script src="http://coletownsend.com/web/content/script/waypoints.js"></script>
+  <script src="<?php echo theme_url('/js/retina.js'); ?>"></script>
+
 
   <!-- Custom JS -->
   <script src="<?php echo theme_url('/js/scripts.js'); ?>"></script>
+
 
   </body>
 </html>
