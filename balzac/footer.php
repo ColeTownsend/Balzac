@@ -23,13 +23,12 @@
   </footer>
 
   <!-- If they're out, get some from the cellar -->
-  <script>window.jQuery || document.write('<script src="<?php echo theme_url('/js/jquery.js'); ?>"><\/script>')</script>
-  <script src="<?php echo theme_url('/js/retina.js'); ?>"></script>
-
+  <script>window.jQuery || document.write('<script src="<?php echo theme_url('/js/jquery.min.js'); ?>"><\/script>')</script>
+  <script src="/balzac/themes/balzac/js/retina.min.js"></script>
 
   <!-- Custom JS -->
-  <script src="<?php echo theme_url('/js/scripts.js'); ?>"></script>
-
+  <script src="/balzac/themes/balzac/js/scripts.js"></script>
+  
 
   </body>
 </html>

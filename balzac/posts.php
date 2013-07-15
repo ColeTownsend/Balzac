@@ -6,7 +6,7 @@
               <!-- We have posts, it's safe to loop. -->
               <h1></h1>
               <ol class="post-list">
-                 <lh><h1><span class="bb">Recent Posts</span></h1></lh>
+                 <lh><h2><span class="bb">Recent Posts</span></h2></lh>
                 <?php while(posts()): ?>
                   <li>
                     <div class="deets left-slide"><h1><a href="<?php echo article_url(); ?>"><?php echo article_title(); ?></a></h1>

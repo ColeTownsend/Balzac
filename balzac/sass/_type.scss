@@ -2,6 +2,7 @@
    TYPE
    - Meat
    - Headings
+   - Media Query adjustments
    ========================================================================== */
 
 /* Meat
@@ -31,3 +32,38 @@ h6,.h6 {      font-size: $fs6; }
 .meta {       font-size: $fs6; }
 
 blockquote, blockquote p {  font-size: $fs2; }
+
+
+
+
+
+
+// Iphone 
+
+@media only screen and (max-width: $breakpoint-1-max-width) {
+
+p {           
+    font-size: $fs5;
+    line-height: $lhsmall;
+}
+
+.intro {      
+    font-size: $fs4; 
+    line-height: 1.4em;
+}
+
+
+h1,.h1 {      font-size: $fs2; }
+h2,.h2 {      font-size: $fs3; } 
+h3,.h3 {      font-size: $fs4; } 
+h4,.h4 {      font-size: $fs5; } 
+h5,.h5 {      font-size: $fs6; } 
+h6,.h6 {      font-size: $fs6; } 
+
+.meta {       font-size: $fs6; }
+
+blockquote, blockquote p {  font-size: $fs4; }
+
+}
+
+
