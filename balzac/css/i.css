@@ -929,14 +929,15 @@ footer .social ul li:last-child {
   /* line 602, ../sass/_styles.scss */
   p {
     font-size: 16px;
+    line-height: 24px;
   }
 
-  /* line 606, ../sass/_styles.scss */
+  /* line 607, ../sass/_styles.scss */
   footer {
     font-size: 16px;
   }
 
-  /* line 610, ../sass/_styles.scss */
+  /* line 611, ../sass/_styles.scss */
   small {
     font-size: 12px;
   }
