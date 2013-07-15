@@ -1052,21 +1052,22 @@ footer .social ul li:last-child {
     padding: 15px 0px;
     padding-right: 7%;
     position: relative;
+    left: 8px;
     width: 100%;
     color: #f9f9f9;
   }
-  /* line 670, ../sass/_styles.scss */
+  /* line 671, ../sass/_styles.scss */
   header.site-header nav ul li a:active {
     background-color: #8ab9d1;
     color: white;
   }
-  /* line 674, ../sass/_styles.scss */
+  /* line 675, ../sass/_styles.scss */
   header.site-header nav ul li a:hover {
     text-shadow: none;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 683, ../sass/_styles.scss */
+  /* line 684, ../sass/_styles.scss */
   .post {
     display: inline;
     float: left;
@@ -1078,12 +1079,12 @@ footer .social ul li:last-child {
     float: none;
   }
 
-  /* line 691, ../sass/_styles.scss */
+  /* line 692, ../sass/_styles.scss */
   footer {
     font-size: 16px;
   }
 
-  /* line 695, ../sass/_styles.scss */
+  /* line 696, ../sass/_styles.scss */
   small {
     font-size: 12px;
   }
