@@ -94,7 +94,7 @@ function rwar_latest_posts($limit = 3) {
     return $result;
 }
 
-function mytheme_latest_post() {
+function home_latest_post() {
 	$post = Post::where('status', '=', 'published')->sort('created', 'desc')->take(1)->fetch();
 		
 	if($post) {
