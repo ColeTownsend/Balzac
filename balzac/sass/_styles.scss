@@ -568,7 +568,7 @@ footer {
     }
     
     .prev-posts {
-        @include column(10);
+        @include column(9);
         padding-left: 0;
         float: none;
         margin: 0 auto;
@@ -592,7 +592,7 @@ blockquote, blockquote p {
 }
 
 .post {
-    @include column(10);
+    @include column(9);
     max-width: 680px;
     display: block;
     margin: 0 auto;
