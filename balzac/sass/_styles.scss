@@ -16,7 +16,6 @@ h1,h2,h3,h4,h5 {
 }
 
 p {
-    line-height: $lh;
     margin-bottom: $lh;
 }
 
@@ -391,7 +390,9 @@ img.loading {
     }
     
     h1, h2, h3, h4, h5 {
-        padding-top: ($lh * 2/3);
+        padding-top: ($lh * 1/2);
+        margin-bottom: ($lh * 1/2);
+
     }
     
     figure {
@@ -419,9 +420,25 @@ img.loading {
         @include br(4px);
     }
     
-    h1,h2,h3,h4,h5 {
-        margin-bottom: ($lh * 1/3);
-    }    
+    ul {
+        display: block;
+        margin-bottom: $lh;
+        list-style: disc;
+        list-style-type: disc;
+        lh h1, lh h2, lh h3, lh h4, lh h5 {
+            @include underline(2px, solid, $grey-light);
+        }
+        li {
+            list-style: disc;
+            list-style-type: disc;
+            margin-bottom: $lh/2;
+            margin-left: $lh;
+            padding-left: $lh/3;
+        &:last-child {
+            margin-bottom: 0;
+            }
+        }
+    }  
     
     .share {
         text-align: center;
