@@ -40,6 +40,8 @@ h6,.h6 {      font-size: $fs6; }
 
 blockquote, blockquote p {  font-size: $fs2; }
 
+.archive input { font-size: $fs2}
+
 
 
 
@@ -65,7 +67,6 @@ p {
     margin-bottom: $lhsmall/2;
 }
 
-
 h1,.h1 {      font-size: $fs2; }
 h2,.h2 {      font-size: $fs3; } 
 h3,.h3 {      font-size: $fs4; } 
@@ -76,6 +77,8 @@ h6,.h6 {      font-size: $fs6; }
 .meta {       font-size: $fs6; }
 
 blockquote, blockquote p {  font-size: $fs4; }
+
+.archive input { font-size: $fs3}
 
 }
 
