@@ -448,7 +448,7 @@ img.loading {
         li {
             list-style: disc;
             list-style-type: disc;
-            margin-left: $lh;
+            margin-left: $lh*1.5;
             padding-left: $lh/3;
         &:last-child {
             margin-bottom: 0;
