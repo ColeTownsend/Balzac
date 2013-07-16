@@ -8,8 +8,9 @@
 /* Meat
    ========================================================================== */
 
-p {           
-    font-size: $fsp; 
+p, .post ul li {           
+    font-size: $fsp;
+    line-height: $lh; 
 }
 
 .intro {      
@@ -42,7 +43,7 @@ blockquote, blockquote p {  font-size: $fs2; }
 
 @media only screen and (max-width: $breakpoint-1-max-width) {
 
-p {           
+p, .post ul li {           
     font-size: $fs5;
     line-height: $lhsmall;
 }
