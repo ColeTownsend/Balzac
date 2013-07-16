@@ -1,6 +1,6 @@
 <?php
 
-  $allowCat = array(3);
+  $allowCat = array(5);
 
   function article_category_id() {
     if($category = Registry::prop('article', 'category')) {

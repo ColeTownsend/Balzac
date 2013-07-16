@@ -108,12 +108,32 @@ function home_latest_post() {
 
 
 /*
-  Twitter
+  Social
 */
+
+// Twitter
 function twitter_account() {
-  return Config::get('meta.twitter');
+  return site_meta('twitter-account', 'ctrunsthis');
 }
 
 function twitter_url() {
   return 'http://twitter.com/' . twitter_account();
+}
+
+// Dribbble
+function dribbble_account() {
+  return site_meta('dribbble-account', 'coletownsend');
+}
+
+function dribbble_url() {
+  return 'http://dribbble.com/' . dribbble_account();
+}
+
+// Dribbble
+function email_account() {
+  return site_meta('email-account');
+}
+
+function email_url() {
+  return 'mailto:' . email_account();
 }
