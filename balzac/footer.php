@@ -15,11 +15,11 @@
         <ul>
             <li><a id="mail" href="<?php echo email_url(); ?>">@<?php echo email_account(); ?>"><span class="foot-link">Contact Me</span></a></li>
         	<?php if(twitter_account()): ?>        	
-        	<li><a id="twit" href="<?php echo twitter_url(); ?>">@<?php echo twitter_account(); ?>" target="_blank"><span class="foot-link">@CTRunsThis</span></a></li> 
+        	<li><a id="twit" href="<?php echo twitter_url(); ?>" target="_blank"><span class="foot-link">@<?php echo twitter_account(); ?></span></a></li> 
             <?php endif; ?>
             
             <?php if(dribbble_account()): ?> 
-        	<li><a id="drib" href="<?php echo dribbble_url(); ?>">@<?php echo dribbble_account(); ?>" target="_blank"><span class="foot-link">ColeTownsend</span></a></li>
+        	<li><a id="drib" href="<?php echo dribbble_url(); ?>" target="_blank"><span class="foot-link"><?php echo dribbble_account(); ?></span></a></li>
         	<?php endif; ?> 
         </ul>
     </div>
