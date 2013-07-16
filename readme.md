@@ -8,18 +8,26 @@ Balzac is a new, fluid & responsive theme for Anchor. It's gloriously beautiful 
 
 This is built on Semantic.gs grid framework which I edited a bit to make it fluid. It utilized much of the PHP from my own blog, which forked and customized the PHP from Zleek (Josh Kennedy). 
 
-## Instructions
+# Instructions
+
+#### Easy Stuff
 * copy the folder "balzac" over to your themes folder
+
+
+#### Variables
 * create **site variables** for social accounts
-** extend > site variables > create new variable for each listed: below
-*** dribbble-account
-*** email-account
-*** twitter-account (don't need an @, just the username)
+* extend > site variables > create new variable for each listed: below
+* dribbble-account
+* email-account
+* twitter-account (don't need an @, just the username)
+
+
+#### Custom Fields
 * create **custom field** for feature image
-** extend > custom fields > create new field
-*** type: post
-*** field: file
-*** unique key: featured-image
-*** Label: Featured Image (or hero, or whatever, this is just for the back end form label.)
-*** File types: (leave blank, unless you want to limit it to jpg, png, etc.)
+* extend > custom fields > create new field
+* type: post
+* field: file
+* unique key: featured-image
+* Label: Featured Image (or hero, or whatever, this is just for the back end form label.)
+* File types: (leave blank, unless you want to limit it to jpg, png, etc.)
 
