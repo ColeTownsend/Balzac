@@ -173,6 +173,10 @@ blockquote, blockquote p {
   font-size: 48px;
 }
 
+.archive input {
+  font-size: 48px;
+}
+
 @media only screen and (max-width: 480px) {
   p {
     font-size: 16px;
@@ -220,6 +224,10 @@ blockquote, blockquote p {
 
   blockquote, blockquote p {
     font-size: 24px;
+  }
+
+  .archive input {
+    font-size: 32px;
   }
 }
 /************ Basic *************/
@@ -305,13 +313,13 @@ input {
   background: none;
   border: none;
   outline: none;
-  font-size: 48px;
 }
 
 .archive input {
   background: none;
   outline: none;
-  font-size: 48px;
+  width: 100%;
+  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
 }
 .archive input:focus {
   background: white;
@@ -551,7 +559,7 @@ header.site-header nav ul li a:hover {
   display: block;
   margin: 0 auto;
   float: none;
-  min-height: 300px;
+  min-height: 500px;
 }
 
 .archive-wrap {
@@ -635,7 +643,7 @@ header.site-header nav ul li a:hover {
 }
 
 .post {
-  min-height: 300px;
+  min-height: 500px;
 }
 .post .deets {
   position: relative;

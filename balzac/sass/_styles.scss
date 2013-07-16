@@ -71,13 +71,13 @@ input {
     background: none;
     border: none;
     outline: none;
-    font-size: 48px;
 }
 
 .archive input {
     background: none;
     outline: none;
-    font-size: 48px;
+    width: 100%;
+    font-family: $serif;
     &:focus {
         background: white;
         color: $black;
@@ -295,7 +295,7 @@ img.loading {
     display: block;
     margin: 0 auto;
     float: none;
-    min-height: 300px;
+    min-height: 500px;
 }
 
 .archive-wrap {
@@ -386,7 +386,7 @@ img.loading {
 
 .post {
     
-    min-height: 300px;
+    min-height: 500px;
     
     .deets {
         position: relative;
