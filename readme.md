@@ -22,7 +22,4 @@ This is built on Semantic.gs grid framework which I edited a bit to make it flui
 *** unique key: featured-image
 *** Label: Featured Image (or hero, or whatever, this is just for the back end form label.)
 *** File types: (leave blank, unless you want to limit it to jpg, png, etc.)
-* Loop right category for **Portfolio**
-** extend > site variables > create new variable
-*** portfolio-ID
 
