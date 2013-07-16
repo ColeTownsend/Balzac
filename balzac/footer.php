@@ -13,7 +13,7 @@
       
       <div class="social">
         <ul>
-            <li><a id="mail" href="<?php echo email_url(); ?>">@<?php echo email_account(); ?>"><span class="foot-link">Contact Me</span></a></li>
+            <li><a id="mail" href="<?php echo email_url(); ?>"><span class="foot-link">Contact Me</span></a></li>
         	<?php if(twitter_account()): ?>        	
         	<li><a id="twit" href="<?php echo twitter_url(); ?>" target="_blank"><span class="foot-link">@<?php echo twitter_account(); ?></span></a></li> 
             <?php endif; ?>
