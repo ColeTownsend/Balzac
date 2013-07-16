@@ -2,9 +2,8 @@
 
     <section class="article" id="article-<?php echo article_id(); ?>">
       <div class="overlay"></div>
-      <div class="featured-image" style="background-image: url(<?php echo article_custom_field('featured-image', 'http://coletownsend.com/themes/zleek-master/img/feature-img.svg'); ?>);"></div>
+      <div class="featured-image" style="background-image: url(<?php echo article_custom_field('featured-image', 'themes/balzac/img/soft-trees.jpg'); ?>);"></div>
 
-      
       <article class="wrap post">
         <header class="post-header">
           <hgroup>

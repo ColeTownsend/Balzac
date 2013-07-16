@@ -8,7 +8,7 @@
 /* Meat
    ========================================================================== */
 
-p, .post ul li {           
+p {           
     font-size: $fsp;
     line-height: $lh; 
 }
@@ -16,6 +16,12 @@ p, .post ul li {
 .intro {      
     font-size: $fs3; 
     line-height: 1.4em;
+}
+
+.post ul li {
+    font-size: $fsp;
+    line-height: $lh;
+    margin-bottom: $lh/3;
 }
 
 
@@ -43,7 +49,7 @@ blockquote, blockquote p {  font-size: $fs2; }
 
 @media only screen and (max-width: $breakpoint-1-max-width) {
 
-p, .post ul li {           
+p {           
     font-size: $fs5;
     line-height: $lhsmall;
 }
@@ -51,6 +57,12 @@ p, .post ul li {
 .intro {      
     font-size: $fs4; 
     line-height: 1.4em;
+}
+
+.post ul li {
+    font-size: $fs5;
+    line-height: $lhsmall;
+    margin-bottom: $lhsmall/2;
 }
 
 

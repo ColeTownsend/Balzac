@@ -4,7 +4,6 @@
           <article class="archive-wrap">
             <?php if(has_posts()): ?>
               <!-- We have posts, it's safe to loop. -->
-              <h1></h1>
               <ol class="post-list">
                  <lh><h2><span class="bb">Recent Posts</span></h2></lh>
                 <?php while(posts()): ?>
