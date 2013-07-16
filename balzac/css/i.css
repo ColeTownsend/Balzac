@@ -123,7 +123,7 @@ body {
    ========================================================================== */
 /* Meat
    ========================================================================== */
-p, .post ul li {
+p {
   font-size: 22px;
   line-height: 33px;
 }
@@ -131,6 +131,12 @@ p, .post ul li {
 .intro {
   font-size: 32px;
   line-height: 1.4em;
+}
+
+.post ul li {
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 11px;
 }
 
 /* Headings
@@ -168,7 +174,7 @@ blockquote, blockquote p {
 }
 
 @media only screen and (max-width: 480px) {
-  p, .post ul li {
+  p {
     font-size: 16px;
     line-height: 24px;
   }
@@ -176,6 +182,12 @@ blockquote, blockquote p {
   .intro {
     font-size: 24px;
     line-height: 1.4em;
+  }
+
+  .post ul li {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
   }
 
   h1, .h1 {
@@ -287,6 +299,23 @@ hr {
   border: none;
   margin-bottom: 33px;
   border-radius: 2px;
+}
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 48px;
+}
+
+.archive input {
+  background: none;
+  outline: none;
+  font-size: 48px;
+}
+.archive input:focus {
+  background: white;
+  color: #3b3b3b;
 }
 
 /* Variables and Building Blocks */
@@ -662,7 +691,6 @@ header.site-header nav ul li a:hover {
 .post ul li {
   list-style: disc;
   list-style-type: disc;
-  margin-bottom: 16.5px;
   margin-left: 33px;
   padding-left: 11px;
 }

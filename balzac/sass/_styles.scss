@@ -67,6 +67,23 @@ hr {
     border-radius: 2px;
 }
 
+input {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 48px;
+}
+
+.archive input {
+    background: none;
+    outline: none;
+    font-size: 48px;
+    &:focus {
+        background: white;
+        color: $black;
+    }
+}
+
 /* Variables and Building Blocks */
 
 .icons {
@@ -430,7 +447,6 @@ img.loading {
         li {
             list-style: disc;
             list-style-type: disc;
-            margin-bottom: $lh/2;
             margin-left: $lh;
             padding-left: $lh/3;
         &:last-child {

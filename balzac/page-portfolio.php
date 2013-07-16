@@ -1,6 +1,6 @@
 <?php
 
-  $allowCat = array(5);
+  $allowCat = array(2);
 
   function article_category_id() {
     if($category = Registry::prop('article', 'category')) {
@@ -47,12 +47,12 @@
 
 ?>
 
-<?php theme_include('header'); ?>
+<?php theme_include('headerDark'); ?>
     <div id='bump'>
         <section class="article archive">
           <article class="archive-wrap">
               <ol class="post-list">
-                 <lh style="text-align: center;"><h1><span class="bb">Recent Posts</span></h1></lh>
+                 <lh><h2><span class="bb">Case Studies</span></h2></lh>
         <?php while(portf_list()): ?>
             <?php foreach($allowCat as $cat): ?>
                 <?php if(article_category_id() == $cat): ?>
