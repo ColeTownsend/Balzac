@@ -57,10 +57,9 @@ blockquote, blockquote p {
 }
 
 code {
-    padding: 10px;
-    background: $black;
     color: $accent;
     font-family: "Monaco", "Courier New", "Courier";
+    margin-left: $lh;
 }
 
 hr {
