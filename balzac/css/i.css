@@ -298,6 +298,13 @@ blockquote, blockquote p {
   margin-bottom: 33px;
 }
 
+code {
+  padding: 10px;
+  background: #3b3b3b;
+  color: #24536b;
+  font-family: "Monaco", "Courier New", "Courier";
+}
+
 hr {
   display: block;
   margin: 0 auto;
