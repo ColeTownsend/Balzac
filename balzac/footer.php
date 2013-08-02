@@ -19,7 +19,7 @@
             <?php endif; ?>
             
             <?php if(dribbble_account()): ?> 
-        	<li><a id="drib" href="<?php echo dribbble_url(); ?>" target="_blank"><span class="foot-link"><?php echo dribbble_account(); ?></span></a></li>
+        	<li><a id="drib" href="<?php echo dribbble_url(); ?>" target="_blank"><span class="foot-link">Dribbble</span></a></li>
         	<?php endif; ?> 
         </ul>
     </div>
