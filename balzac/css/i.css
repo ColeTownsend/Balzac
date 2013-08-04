@@ -908,6 +908,8 @@ footer .social ul li:last-child {
 
   header.site-header {
     min-height: 59px;
+    margin-top: 20px;
+    padding-top: 0;
   }
 
   header.site-header hgroup h1 {
