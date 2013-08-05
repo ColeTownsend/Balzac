@@ -57,7 +57,8 @@
                 <?php if(article_category_id() == $cat): ?>
                   <li>
                     <div class="deets left-slide"><h1><a href="<?php echo article_url(); ?>"><?php echo article_title(); ?></a></h1>
-                    <em><p class="date"><time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time></p></em></div>
+                    <p class="date"><time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo relative_time(article_time()); ?></time></p>
+                    </div>
                     <p class=""><?php echo article_description(); ?></p>
                   </li>
                 <?php endif; ?>
