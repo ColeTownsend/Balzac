@@ -1,5 +1,4 @@
 <?php theme_include('headerDark'); ?>
-    <div id='bump'>
         <section class="article archive">
           <article class="archive-wrap">
             <?php if(has_search_results()): ?>

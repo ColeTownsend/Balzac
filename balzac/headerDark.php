@@ -50,7 +50,6 @@
     <?php endif; ?>
   </head>
 
-<div id="bump">
   <body class="<?php echo body_class(); ?>">
     <header class="site-header darken">
       <div class="wrap">
