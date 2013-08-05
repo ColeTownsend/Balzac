@@ -30,7 +30,9 @@ a:hover {
 }
 
 em {
-    font-style: italic;
+    padding: 1px 2px;
+    border-radius: 2px;
+    background: #ffe8c0;
 }
 
 strong {
@@ -56,6 +58,7 @@ blockquote, blockquote p {
     margin-bottom: $lh;
 }
 
+<<<<<<< HEAD
 code {
     color: $accent;
     font-family: "Monaco", "Courier New", "Courier";
@@ -63,6 +66,47 @@ code {
     font-size: .9em;
 }
 
+=======
+
+/*   Code Formatting    */
+
+code {
+    color: $accent;
+    font-family: "Monaco", "Courier New", "Courier";
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.highlight {
+    background: $black;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: $lh;
+
+    code {
+        color: $white;
+        font-family: "Monaco", "Courier New", "Courier";
+        font-size: .9em;
+        .lineno {
+            margin-right: $lh/2;
+            color: $grey-light;
+            line-height: 2em;
+        }
+        .nt {
+            color: #c85b5c;
+        }
+        .na {
+            color: #f0e687;
+        }
+        .s {
+            color: #87ceeb;
+        }
+    }
+}
+
+
+
+>>>>>>> dev
 hr {
     display: block;
     margin: 0 auto;
@@ -143,7 +187,7 @@ header.site-header {
 
 }
 
-#bump .darken {
+#darken {
       
       a {
       color: $black;
@@ -207,6 +251,7 @@ header.site-header nav {
   display: block;
   padding-right: 5vw;
   @include clearfix;
+  
   ul li {
     font-size: 16px;
     text-transform: uppercase;
@@ -290,11 +335,6 @@ header.site-header nav {
     }
 }
 
-// Loader
-img.loading {
-    
-}
-
 // Archive Page
 
 .archive {
@@ -335,30 +375,36 @@ img.loading {
             
             a {
                 position: relative;
+                &:hover {
+                    @include transit;
+                }
             }
             
-            a:visited:after {
-                content:'✓';
+            a:hover:before {
+                content:'...';
                 color: $grey-light;
-                font-family: "Icons";
+                font-family: $sans;
                 position: absolute;
                 margin-left: -70px;
-                font-size: 60px;
+                font-size: 40px;
                 left: 0;
-                top: -6px;
+                top: -20px;
                 text-align: center;
+                @include transit;
             }
             
-            a:after {
+            a:before {
                 content:'“';
                 color: $grey-light;
-                font-family: "Icons";
                 position: absolute;
                 margin-left: -70px;
                 font-size: 60px;
+                z-index: 9001; // over 9000!!!!!!!
                 top: -6px;
                 left: 0;
                 text-align: center;
+                @include transit;
+
             }
             
             h1 {
@@ -373,13 +419,13 @@ img.loading {
         }
         
         .date {
-            margin-bottom: $lh/2;
+            margin-bottom: 3px;
         }
         
         .date time {
             position: relative;
-            top: -6px;
-            font-size: 14px;
+            top: -3px;
+            font-size: $fs5;
             font-weight: bold;
             font-family: $sans;
             font-style: normal;
@@ -455,12 +501,30 @@ img.loading {
         li {
             list-style: disc;
             list-style-type: disc;
-            margin-left: $lh*1.5;
+            margin-left: $lh*2;
             padding-left: $lh/3;
         &:last-child {
             margin-bottom: 0;
             }
         }
+    }
+
+    ol {
+        display: block;
+        margin-bottom: $lh;
+        lh h1, lh h2, lh h3, lh h4, lh h5 {
+            @include underline(2px, solid, $grey-light);
+        }
+        li {
+            margin-left: $lh*2;
+            padding-left: $lh/3;
+            margin-bottom: $lh/3;
+            line-height: $lh;
+            font-size: $fsp;
+        &:last-child {
+            margin-bottom: 0;
+            }
+        } 
     }  
     
     .share {
@@ -660,6 +724,8 @@ footer {
   
   header.site-header {
     min-height: 59px;
+    margin-top: 20px;
+    padding-top: 0;
   }
   
   header.site-header hgroup h1 {
@@ -735,13 +801,13 @@ footer {
     }
   }
   
-  #bump .darken nav ul {
+  #darken nav ul {
           padding: 0;
           margin-top: 40px;
           background: $black;
       }
       
-   #bump .darken nav ul li a {
+   #darken nav ul li a {
         color: $white;
         &:active {
           background-color: $link;
