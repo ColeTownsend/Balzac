@@ -423,7 +423,7 @@ header.site-header .wrap {
   max-width: 90vw;
 }
 
-#bump .darken a {
+.posts header.site-header .darken a {
   color: #3b3b3b;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -431,7 +431,7 @@ header.site-header .wrap {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-#bump .darken a:hover {
+.posts header.site-header .darken a:hover {
   color: #8ab9d1;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -439,16 +439,16 @@ header.site-header .wrap {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-#bump .darken .menu .icons {
+.posts header.site-header .darken .menu .icons {
   color: #3b3b3b;
 }
-#bump .darken nav ul li a {
+.posts header.site-header .darken nav ul li a {
   color: #3b3b3b;
 }
-#bump .darken nav ul li a:active {
+.posts header.site-header .darken nav ul li a:active {
   color: #8ab9d1;
 }
-#bump .darken nav ul li a:hover {
+.posts header.site-header .darken nav ul li a:hover {
   text-shadow: none;
   color: #8ab9d1;
 }
