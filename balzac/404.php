@@ -1,5 +1,5 @@
+<div id='bump'>
 <?php theme_include('header'); ?>
-
 	<section class="article" id="article-<?php echo article_id(); ?>">
       <div class="overlay"></div>
       <div class="featured-image" style="background-image: url(<?php echo article_custom_field('featured-image', 'themes/balzac/img/soft-trees.jpg'); ?>);"></div>
