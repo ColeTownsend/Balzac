@@ -1,3 +1,4 @@
+<div id='bump'>
 <?php theme_include('header'); ?>
 
     <section class="article" id="article-<?php echo article_id(); ?>">

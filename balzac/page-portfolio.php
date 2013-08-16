@@ -47,6 +47,7 @@
 
 ?>
 
+<div id='bump'>
 <?php theme_include('headerDark'); ?>
         <section class="article archive">
           <article class="archive-wrap">
