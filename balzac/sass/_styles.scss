@@ -73,6 +73,7 @@ code {
     padding: 12px;
     border-radius: 4px;
     margin-bottom: $lh;
+    overflow-x: scroll;
 
     code {
         color: $white;
@@ -137,6 +138,10 @@ input {
     border-bottom: 2px solid $link;
 }
 
+.pad-top {
+    padding-top: $lh*2;
+}
+
 /************ Layout *************/
 
 #bump {
@@ -177,7 +182,7 @@ header.site-header {
 
 }
 
-#darken {
+#bump .darken {
       
       a {
       color: $black;
@@ -389,7 +394,7 @@ header.site-header nav {
                 position: absolute;
                 margin-left: -70px;
                 font-size: 60px;
-                z-index: 9001; // over 9000!!!!!!!
+                z-index: 10;
                 top: -6px;
                 left: 0;
                 text-align: center;
@@ -426,6 +431,7 @@ header.site-header nav {
     }
 }
  
+// Post Formatting
 
 .post {
     
@@ -452,6 +458,7 @@ header.site-header nav {
     h1, h2, h3, h4, h5 {
         padding-top: ($lh * 1/2);
         margin-bottom: ($lh * 1/2);
+        line-height: 1.25em
 
     }
     
@@ -632,6 +639,10 @@ footer {
     }
 }
 
+.disqus {
+    margin-top: $lh*3;
+}
+
 
 /* Tablet
    ========================================================================== */
@@ -791,13 +802,13 @@ footer {
     }
   }
   
-  #darken nav ul {
+  #bump .darken nav ul {
           padding: 0;
           margin-top: 40px;
           background: $black;
       }
       
-   #darken nav ul li a {
+   #bump .darken nav ul li a {
         color: $white;
         &:active {
           background-color: $link;
