@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="<?php echo theme_url('/css/i.css'); ?>">
     
     <!-- Type -->
-    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="<?php echo theme_url('/css/entypo/entypo.css'); ?>" media="all">
-    <link rel='stylesheet' href='/calplus/cal.css' media='all' />
-
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="<?php echo theme_url('/css/entypo.css'); ?>" media="all">
+    
+    <!-- You need to go and purchase Calendas Plus and create a font-face package. I would try using IcoMoon or Fontsquirrel
+    <link rel='stylesheet' href='<?php echo theme_url('/calendasplus.css'); ?>' media='all' />
+    -->
     
     <!-- RSS -->    
     <link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo rss_url(); ?>">
