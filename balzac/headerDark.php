@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="<?php echo theme_url('/css/i.css'); ?>">
     
     <!-- Type -->
-    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="<?php echo theme_url('/css/entypo/entypo.css'); ?>" media="all">
-    <link rel='stylesheet' href='/calplus/cal.css' media='all' />
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic' rel='stylesheet' type='text/css'>    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="<?php echo theme_url('/css/entypo.css'); ?>" media="all">
+    
+    <!-- You need to go and purchase Calendas Plus and create a font-face package. I would try using IcoMoon or Fontsquirrel
+    <link rel='stylesheet' href='<?php echo theme_url('/calendasplus.css'); ?>' media='all' />
+  -->
 
     
     <!-- RSS -->    
@@ -51,7 +53,7 @@
   </head>
 
   <body class="<?php echo body_class(); ?>">
-    <header class="site-header" id="darken">
+    <header class="site-header darken">
       <div class="wrap">
         <hgroup>
           <h1><a href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a></h1>

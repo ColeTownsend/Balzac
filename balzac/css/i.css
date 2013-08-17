@@ -321,6 +321,7 @@ code {
   padding: 12px;
   border-radius: 4px;
   margin-bottom: 33px;
+  overflow-x: scroll;
 }
 .highlight code {
   color: #f9f9f9;
@@ -382,6 +383,10 @@ input {
   border-bottom: 2px solid #8ab9d1;
 }
 
+.pad-top {
+  padding-top: 66px;
+}
+
 /************ Layout *************/
 #bump {
   min-height: 100%;
@@ -432,7 +437,7 @@ header.site-header .wrap {
   max-width: 90vw;
 }
 
-#darken a {
+#bump .darken a {
   color: #3b3b3b;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -440,7 +445,7 @@ header.site-header .wrap {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-#darken a:hover {
+#bump .darken a:hover {
   color: #8ab9d1;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -448,16 +453,16 @@ header.site-header .wrap {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-#darken .menu .icons {
+#bump .darken .menu .icons {
   color: #3b3b3b;
 }
-#darken nav ul li a {
+#bump .darken nav ul li a {
   color: #3b3b3b;
 }
-#darken nav ul li a:active {
+#bump .darken nav ul li a:active {
   color: #8ab9d1;
 }
-#darken nav ul li a:hover {
+#bump .darken nav ul li a:hover {
   text-shadow: none;
   color: #8ab9d1;
 }
@@ -671,7 +676,7 @@ header.site-header nav ul li a:hover {
   position: absolute;
   margin-left: -70px;
   font-size: 60px;
-  z-index: 9001;
+  z-index: 10;
   top: -6px;
   left: 0;
   text-align: center;
@@ -726,6 +731,7 @@ header.site-header nav ul li a:hover {
 .post h1, .post h2, .post h3, .post h4, .post h5 {
   padding-top: 16.5px;
   margin-bottom: 16.5px;
+  line-height: 1.25em;
 }
 .post figure {
   margin: 33px 0;
@@ -933,6 +939,10 @@ footer .social ul li:last-child {
   margin-bottom: 0;
 }
 
+.disqus {
+  margin-top: 99px;
+}
+
 /* Tablet
    ========================================================================== */
 @media only screen and (max-width: 800px) {
@@ -1014,7 +1024,7 @@ footer .social ul li:last-child {
     color: white;
   }
   header.site-header a.menu .icons {
-    font-size: 64px;
+    font-size: 32px;
   }
 
   header.site-header a.menu img {
@@ -1065,19 +1075,19 @@ footer .social ul li:last-child {
     text-shadow: none;
   }
 
-  #darken nav ul {
+  #bump .darken nav ul {
     padding: 0;
     margin-top: 40px;
     background: #3b3b3b;
   }
 
-  #darken nav ul li a {
+  #bump .darken nav ul li a {
     color: #f9f9f9;
   }
-  #darken nav ul li a:active {
+  #bump .darken nav ul li a:active {
     background-color: #8ab9d1;
   }
-  #darken nav ul li a:hover {
+  #bump .darken nav ul li a:hover {
     text-shadow: none;
     color: #f9f9f9;
     background-color: #8ab9d1;
