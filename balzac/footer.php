@@ -29,10 +29,10 @@
 
   <!-- If they're out, get some from the cellar -->
   <script>window.jQuery || document.write('<script src="<?php echo theme_url('/js/jquery.min.js'); ?>"><\/script>')</script>
-  <script src="/balzac/themes/balzac/js/retina.min.js"></script>
+  <script src="<?php echo theme_url('js/retina.min.js'); ?>"></script>
 
   <!-- Custom JS -->
-  <script src="/balzac/themes/balzac/js/scripts.js"></script>
+  <script src="<?php echo theme_url('/js/scripts.js'); ?>"></script>
   
 
   </body>
