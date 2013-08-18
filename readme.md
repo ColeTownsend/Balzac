@@ -21,7 +21,16 @@ This is built on Semantic.gs grid framework which I edited a bit to make it flui
 
 
 #### Custom Fields
-* create **custom field** for feature image
+
+##### Create **custom field** in **pages** for feature image
+* extend > custom fields > create new field
+* type: page
+* field: file
+* unique key: featured-image
+* Label: Featured Image (or hero, or whatever, this is just for the back end form label.)
+* File types: (leave blank, unless you want to limit it to jpg, png, etc.)
+
+##### Create **custom field** in **articles** for feature image
 * extend > custom fields > create new field
 * type: post
 * field: file
