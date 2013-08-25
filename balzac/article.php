@@ -16,7 +16,7 @@
     
         <?php echo article_markdown(); ?>
           
-        <a href="http://twitter.com/share?url=<?php echo (full_url() . article_url()); ?>&text=<?php echo article_title(); ?>&via=<?php echo twitter_account(); ?>" class="share">Share</a>
+        <a href="http://twitter.com/share?url=<?php echo (full_url() . substr( article_url(), 1)); ?>&text=<?php echo article_title(); ?>&via=<?php echo twitter_account(); ?>" class="share">Share</a>
     
       </article>
     </section>
