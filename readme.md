@@ -23,3 +23,18 @@ This is built on Semantic.gs grid framework which I edited a bit to make it flui
 *** Label: Featured Image (or hero, or whatever, this is just for the back end form label.)
 *** File types: (leave blank, unless you want to limit it to jpg, png, etc.)
 
+## Thanks!
+
+If you're feeling generous and really like this, donate some coffee money via [Gumroad](https://gumroad.com/l/balzac).
+
+If you'd like give me credit somewhere on your blog or tweet a shout out to
+[@ctrunsthis](https://twitter.com/ctrunsthis), that would be pretty sweet. 
+
+## License
+
+This is under the [GPL](http://choosealicense.com/licenses/gpl-v2/) with no added caveats, so feel free to use this Anchor theme on your site without linking back to me or using a disclaimer. Basically you must make your source code equally available to others.
+
+
+
+
+
