@@ -1,9 +1,10 @@
 <div id='bump'>
+<article class="<?php echo page_custom_field('header-style', ''); ?>"> <!-- Dictating the color of the header/nav links -->
 <?php theme_include('header'); ?>
 
     <section class="article" id="article-<?php echo article_id(); ?>">
       <div class="overlay"></div>
-      <div class="featured-image" style="background-image: url(<?php echo article_custom_field('featured-image', '/themes/balzac/img/soft-trees.jpg'); ?>);"></div>
+      <div class="featured-image" style="background-image: url(<?php echo page_custom_field('featured-image', '/themes/balzac/img/soft-trees.jpg'); ?>);"></div>
 
       <article class="wrap post">
         <header class="post-header">
@@ -19,5 +20,6 @@
       </article>
     </section>
 </div>
+</article> <!-- ending that hacky wrapper to change nav color -->
 
 <?php theme_include('footer'); ?>
