@@ -6,7 +6,7 @@ It is fluid & responsive theme. It's gloriously beautiful and suited to long for
 
 This is built on Semantic.gs grid framework which I edited a bit to make it fluid. It utilized much of the PHP from my own blog, which forked and customized the PHP from Zleek (Josh Kennedy). 
 
-You can now also dictate the color of the nav links just like in the Jekyll version! By creating a text variable for both your pages and articles, you can denote "darken" to darken the navigation links up top.
+You can now also dictate the color of the nav links just like in the Jekyll version! By creating a text variable for both your pages and articles, you can denote "darken" to darken the navigation links up top.*
 
 # Instructions
 
@@ -41,7 +41,7 @@ You can now also dictate the color of the nav links just like in the Jekyll vers
 * File types: (leave blank, unless you want to limit it to jpg, png, etc.)
 
 
-## To darken the header on pages and articles, use the tag
+#### *To darken the header on pages and articles, make sure to put "darken" in your Header Style field.
 
 
 For reference:
