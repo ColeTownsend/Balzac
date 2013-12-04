@@ -8,6 +8,8 @@ This is built on Semantic.gs grid framework which I edited a bit to make it flui
 
 You can now also dictate the color of the nav links just like in the Jekyll version! By creating a text variable for both your pages and articles, you can denote "darken" to darken the navigation links up top.*
 
+If you feel like donating — [Give it a thought.](http://gtat.me/balzac/donate)
+
 # Instructions
 
 #### Easy Stuff
