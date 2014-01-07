@@ -193,8 +193,7 @@ header.site-header {
 }
 
 #bump .darken {
-      
-      a {
+      h1 a, a {
       color: $black;
       @include transit(all, .2s, ease-in-out);
 

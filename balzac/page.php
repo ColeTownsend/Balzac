@@ -1,4 +1,5 @@
 <div id='bump'>
+<article class="<?php echo page_custom_field('header-style', ''); ?>"> <!-- Dictating the color of the header/nav links -->
 <?php theme_include('header'); ?>
 
     <section class="article" id="article-<?php echo article_id(); ?>">
@@ -19,5 +20,6 @@
       </article>
     </section>
 </div>
+</article> <!-- ending that hacky wrapper to change nav color -->
 
 <?php theme_include('footer'); ?>
