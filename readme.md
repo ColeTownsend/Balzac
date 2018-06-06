@@ -34,6 +34,8 @@ If you feel like donating — [Give it a thought.](http://gtat.me/balzac/donate)
 * Label: Featured Image (or hero, or whatever, this is just for the back end form label.)
 * File types: (leave blank, unless you want to limit it to jpg, png, etc.)
 
+(Featured images do not show up on the Posts 'list' page, which is the initial page generated after installation.)
+
 ##### Create **custom field** in **articles** for feature image
 * extend > custom fields > create new field
 * type: post
