@@ -1,0 +1,3 @@
+design: ["*.less", "*.css"]
+config: .github
+team_reviewers: designers
