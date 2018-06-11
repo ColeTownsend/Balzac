@@ -1,3 +1,3 @@
-design: ["*.less", "*.css"]
+design: ["*.less", "*.css", "*.scss"]
 config: .github
 team_reviewers: designers
