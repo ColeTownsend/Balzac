@@ -91,7 +91,9 @@ a {
    - Tablets
    ========================================================================== */
 body {
-  width: 100%; }
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
   body:before, body:after {
     content: "";
     display: table; }
