@@ -1,4 +1,4 @@
-design: ["*.less","*.scss" "*.css"]
+design: ["*.less","*.scss", "*.css"]
 config: .github
 team_reviewers: designers
 comment: |
